@@ -1,0 +1,9 @@
+"D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=cmake/gcc_stm32.cmake -DSTM32_CHIP=STM32F407VGT6 -DTOOLCHAIN_PREFIX=E:\xpack-arm-none-eabi-gcc-9.3.1-1.3 -G "CodeBlocks - MinGW Makefiles" E:\stm_test\proj
+-- No TARGET_TRIPLET specified, using default: arm-none-eabi
+-- No STM32_FAMILY specified, trying to get it from STM32_CHIP
+-- Selected STM32 family: F4
+-- No linker script specified, generating default
+-- STM32F407VGT6 has 1024KiB of flash memory and 128KiB of RAM
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/stm_test/proj/cmake-build-debug

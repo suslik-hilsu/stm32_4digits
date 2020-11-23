@@ -1,0 +1,336 @@
+The target system is: Generic -  - arm
+The host system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/arm-none-eabi-gcc.exe 
+Build flags: -fno-unwind-tables;-fno-exceptions;-mthumb;-fno-builtin;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=softfp;-Wall;-std=gnu11;-ffunction-sections;-fdata-sections;-fomit-frame-pointer;-mabi=aapcs;-fno-unroll-loops;-ffast-math;-ftree-vectorize
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "E:/stm_test/proj/cmake-build-release/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/arm-none-eabi-g++.exe 
+Build flags: -fno-unwind-tables;-fno-exceptions;-fno-rtti;-mthumb;-fno-builtin;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=softfp;-Wall;-std=c++14;-ffunction-sections;-fdata-sections;-fomit-frame-pointer;-mabi=aapcs;-fno-unroll-loops;-ffast-math;-ftree-vectorize
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "E:/stm_test/proj/cmake-build-release/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/WinGW/mingw32/bin/mingw32-make.exe cmTC_3fc24/fast && D:/WinGW/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3fc24.dir\build.make CMakeFiles/cmTC_3fc24.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fc24.dir/testCCompiler.c.obj
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe   -fno-unwind-tables -fno-exceptions -mthumb -fno-builtin -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wall -std=gnu11 -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize    -o CMakeFiles\cmTC_3fc24.dir\testCCompiler.c.obj   -c E:\stm_test\proj\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C static library libcmTC_3fc24.a
+"D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_3fc24.dir\cmake_clean_target.cmake
+"D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3fc24.dir\link.txt --verbose=1
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ar.exe qc libcmTC_3fc24.a  CMakeFiles/cmTC_3fc24.dir/testCCompiler.c.obj
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ranlib.exe libcmTC_3fc24.a
+mingw32-make.exe[1]: Leaving directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/WinGW/mingw32/bin/mingw32-make.exe cmTC_af6dd/fast && D:/WinGW/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_af6dd.dir\build.make CMakeFiles/cmTC_af6dd.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af6dd.dir/CMakeCCompilerABI.c.obj
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe   -fno-unwind-tables -fno-exceptions -mthumb -fno-builtin -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wall -std=gnu11 -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize    -v -o CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj   -c "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe
+Target: arm-none-eabi
+Configured with: /Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/sources/gcc/configure --prefix=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc --infodir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/info --mandir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/pdf --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --with-pkgversion='xPack GNU Arm Embedded GCC\x2C 64-bit' --enable-languages=c,c++ --enable-mingw-wildcard --enable-plugins --enable-lto --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/arm-none-eabi --with-native-system-header-dir=/include --with-multilib-list=rmprofile --disable-build-format-warnings --with-system-zlib
+Thread model: single
+gcc version 9.3.1 20200408 (release) (xPack GNU Arm Embedded GCC, 64-bit) 
+COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=gnu11' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+ e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/softfp -iprefix e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mabi=aapcs -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj -Wall -std=gnu11 -version -fno-unwind-tables -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -fomit-frame-pointer -fno-unroll-loops -ffast-math -ftree-vectorize -o C:\Users\rusla\AppData\Local\Temp\ccNgExmu.s
+GNU C11 (xPack GNU Arm Embedded GCC, 64-bit) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 9.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
+ignoring nonexistent directory "e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
+ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
+ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
+ignoring duplicate directory "e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/include
+ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
+ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C11 (xPack GNU Arm Embedded GCC, 64-bit) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 9.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6f9227429e314b7e614128682fe8fae2
+COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=gnu11' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+ e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj C:\Users\rusla\AppData\Local\Temp\ccNgExmu.s
+GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC, 64-bit) 2.34.0.20200428
+COMPILER_PATH=e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/arm-none-eabi/9.3.1/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=gnu11' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+Linking C static library libcmTC_af6dd.a
+"D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_af6dd.dir\cmake_clean_target.cmake
+"D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_af6dd.dir\link.txt --verbose=1
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ar.exe qc libcmTC_af6dd.a  CMakeFiles/cmTC_af6dd.dir/CMakeCCompilerABI.c.obj
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ranlib.exe libcmTC_af6dd.a
+mingw32-make.exe[1]: Leaving directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/include]
+    add: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+    add: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/include] ==> [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/arm-none-eabi/9.3.1/include]
+  collapse include dir [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed] ==> [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+  collapse include dir [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include] ==> [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include]
+  implicit include dirs: [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/arm-none-eabi/9.3.1/include;E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/arm-none-eabi/9.3.1/include-fixed;E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/WinGW/mingw32/bin/mingw32-make.exe cmTC_af6dd/fast && D:/WinGW/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_af6dd.dir\build.make CMakeFiles/cmTC_af6dd.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_af6dd.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe   -fno-unwind-tables -fno-exceptions -mthumb -fno-builtin -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wall -std=gnu11 -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize    -v -o CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj   -c "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/sources/gcc/configure --prefix=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc --infodir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/info --mandir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/pdf --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --with-pkgversion='xPack GNU Arm Embedded GCC\x2C 64-bit' --enable-languages=c,c++ --enable-mingw-wildcard --enable-plugins --enable-lto --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/arm-none-eabi --with-native-system-header-dir=/include --with-multilib-list=rmprofile --disable-build-format-warnings --with-system-zlib]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.3.1 20200408 (release) (xPack GNU Arm Embedded GCC  64-bit) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=gnu11' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -imultilib thumb/v7e-m+fp/softfp -iprefix e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mabi=aapcs -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj -Wall -std=gnu11 -version -fno-unwind-tables -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -fomit-frame-pointer -fno-unroll-loops -ffast-math -ftree-vectorize -o C:\Users\rusla\AppData\Local\Temp\ccNgExmu.s]
+  ignore line: [GNU C11 (xPack GNU Arm Embedded GCC  64-bit) version 9.3.1 20200408 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"]
+  ignore line: [ignoring nonexistent directory "e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/lib/gcc/arm-none-eabi/9.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring duplicate directory "e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/include]
+  ignore line: [ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+  ignore line: [ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (xPack GNU Arm Embedded GCC  64-bit) version 9.3.1 20200408 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6f9227429e314b7e614128682fe8fae2]
+  ignore line: [COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=gnu11' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj C:\Users\rusla\AppData\Local\Temp\ccNgExmu.s]
+  ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC  64-bit) 2.34.0.20200428]
+  ignore line: [COMPILER_PATH=e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/arm-none-eabi/9.3.1/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=gnu11' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_af6dd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [Linking C static library libcmTC_af6dd.a]
+  ignore line: ["D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_af6dd.dir\cmake_clean_target.cmake]
+  ignore line: ["D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_af6dd.dir\link.txt --verbose=1]
+  ignore line: [E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ar.exe qc libcmTC_af6dd.a  CMakeFiles/cmTC_af6dd.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ranlib.exe libcmTC_af6dd.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/WinGW/mingw32/bin/mingw32-make.exe cmTC_1dbcf/fast && D:/WinGW/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1dbcf.dir\build.make CMakeFiles/cmTC_1dbcf.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1dbcf.dir/testCXXCompiler.cxx.obj
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe    -fno-unwind-tables -fno-exceptions -fno-rtti -mthumb -fno-builtin -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wall -std=c++14 -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize    -o CMakeFiles\cmTC_1dbcf.dir\testCXXCompiler.cxx.obj -c E:\stm_test\proj\cmake-build-release\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX static library libcmTC_1dbcf.a
+"D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_1dbcf.dir\cmake_clean_target.cmake
+"D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1dbcf.dir\link.txt --verbose=1
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ar.exe qc libcmTC_1dbcf.a  CMakeFiles/cmTC_1dbcf.dir/testCXXCompiler.cxx.obj
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ranlib.exe libcmTC_1dbcf.a
+mingw32-make.exe[1]: Leaving directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/WinGW/mingw32/bin/mingw32-make.exe cmTC_00bed/fast && D:/WinGW/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_00bed.dir\build.make CMakeFiles/cmTC_00bed.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00bed.dir/CMakeCXXCompilerABI.cpp.obj
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe    -fno-unwind-tables -fno-exceptions -fno-rtti -mthumb -fno-builtin -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wall -std=c++14 -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize    -v -o CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe
+Target: arm-none-eabi
+Configured with: /Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/sources/gcc/configure --prefix=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc --infodir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/info --mandir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/pdf --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --with-pkgversion='xPack GNU Arm Embedded GCC\x2C 64-bit' --enable-languages=c,c++ --enable-mingw-wildcard --enable-plugins --enable-lto --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/arm-none-eabi --with-native-system-header-dir=/include --with-multilib-list=rmprofile --disable-build-format-warnings --with-system-zlib
+Thread model: single
+gcc version 9.3.1 20200408 (release) (xPack GNU Arm Embedded GCC, 64-bit) 
+COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-fno-rtti' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=c++14' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
+ e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/softfp -iprefix e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mabi=aapcs -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj -Wall -std=c++14 -version -fno-unwind-tables -fno-exceptions -fno-rtti -fno-builtin -ffunction-sections -fdata-sections -fomit-frame-pointer -fno-unroll-loops -ffast-math -ftree-vectorize -o C:\Users\rusla\AppData\Local\Temp\ccM7RNGe.s
+GNU C++14 (xPack GNU Arm Embedded GCC, 64-bit) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 9.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"
+ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+fp/softfp"
+ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"
+ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
+ignoring nonexistent directory "e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/lib/gcc/arm-none-eabi/9.3.1/../../../../include"
+ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
+ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
+ignoring duplicate directory "e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1
+ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+fp/softfp
+ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward
+ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/include
+ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed
+ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (xPack GNU Arm Embedded GCC, 64-bit) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 9.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c5d7b271b7d5993fdc96eeb1587d9387
+COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-fno-rtti' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=c++14' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
+ e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\rusla\AppData\Local\Temp\ccM7RNGe.s
+GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC, 64-bit) 2.34.0.20200428
+COMPILER_PATH=e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/arm-none-eabi/9.3.1/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-fno-rtti' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=c++14' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
+Linking CXX static library libcmTC_00bed.a
+"D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_00bed.dir\cmake_clean_target.cmake
+"D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_00bed.dir\link.txt --verbose=1
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ar.exe qc libcmTC_00bed.a  CMakeFiles/cmTC_00bed.dir/CMakeCXXCompilerABI.cpp.obj
+E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ranlib.exe libcmTC_00bed.a
+mingw32-make.exe[1]: Leaving directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1]
+    add: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+fp/softfp]
+    add: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward]
+    add: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/include]
+    add: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+    add: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1] ==> [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include/c++/9.3.1]
+  collapse include dir [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+fp/softfp] ==> [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+fp/softfp]
+  collapse include dir [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward] ==> [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include/c++/9.3.1/backward]
+  collapse include dir [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/include] ==> [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/arm-none-eabi/9.3.1/include]
+  collapse include dir [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed] ==> [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+  collapse include dir [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include] ==> [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include]
+  implicit include dirs: [E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include/c++/9.3.1;E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+fp/softfp;E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include/c++/9.3.1/backward;E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/arm-none-eabi/9.3.1/include;E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/arm-none-eabi/9.3.1/include-fixed;E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/WinGW/mingw32/bin/mingw32-make.exe cmTC_00bed/fast && D:/WinGW/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_00bed.dir\build.make CMakeFiles/cmTC_00bed.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_00bed.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe    -fno-unwind-tables -fno-exceptions -fno-rtti -mthumb -fno-builtin -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wall -std=c++14 -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize    -v -o CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/sources/gcc/configure --prefix=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc --infodir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/info --mandir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/share/doc/pdf --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --with-pkgversion='xPack GNU Arm Embedded GCC\x2C 64-bit' --enable-languages=c,c++ --enable-mingw-wildcard --enable-plugins --enable-lto --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/arm-none-eabi --with-native-system-header-dir=/include --with-multilib-list=rmprofile --disable-build-format-warnings --with-system-zlib]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.3.1 20200408 (release) (xPack GNU Arm Embedded GCC  64-bit) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-fno-rtti' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=c++14' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/softfp -iprefix e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mabi=aapcs -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj -Wall -std=c++14 -version -fno-unwind-tables -fno-exceptions -fno-rtti -fno-builtin -ffunction-sections -fdata-sections -fomit-frame-pointer -fno-unroll-loops -ffast-math -ftree-vectorize -o C:\Users\rusla\AppData\Local\Temp\ccM7RNGe.s]
+  ignore line: [GNU C++14 (xPack GNU Arm Embedded GCC  64-bit) version 9.3.1 20200408 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"]
+  ignore line: [ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+fp/softfp"]
+  ignore line: [ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"]
+  ignore line: [ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"]
+  ignore line: [ignoring nonexistent directory "e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi/Host/home/ilg/Work/arm-none-eabi-gcc-9.3.1-1.3/win32-x64/install/arm-none-eabi-gcc/lib/gcc/arm-none-eabi/9.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring duplicate directory "e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../arm-none-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1]
+  ignore line: [ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi/thumb/v7e-m+fp/softfp]
+  ignore line: [ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward]
+  ignore line: [ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/include]
+  ignore line: [ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed]
+  ignore line: [ e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (xPack GNU Arm Embedded GCC  64-bit) version 9.3.1 20200408 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c5d7b271b7d5993fdc96eeb1587d9387]
+  ignore line: [COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-fno-rtti' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=c++14' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\rusla\AppData\Local\Temp\ccM7RNGe.s]
+  ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC  64-bit) 2.34.0.20200428]
+  ignore line: [COMPILER_PATH=e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/arm-none-eabi/9.3.1/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../libexec/gcc/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fno-unwind-tables' '-fno-exceptions' '-fno-rtti' '-mthumb' '-fno-builtin' '-mcpu=cortex-m4' '-mfpu=fpv4-sp-d16' '-mfloat-abi=softfp' '-Wall' '-std=c++14' '-ffunction-sections' '-fdata-sections' '-fomit-frame-pointer' '-mabi=aapcs' '-fno-unroll-loops' '-ffast-math' '-ftree-vectorize' '-v' '-o' 'CMakeFiles\cmTC_00bed.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [Linking CXX static library libcmTC_00bed.a]
+  ignore line: ["D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_00bed.dir\cmake_clean_target.cmake]
+  ignore line: ["D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_00bed.dir\link.txt --verbose=1]
+  ignore line: [E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ar.exe qc libcmTC_00bed.a  CMakeFiles/cmTC_00bed.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-ranlib.exe libcmTC_00bed.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/stm_test/proj/cmake-build-release/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (xPack GNU Arm Embedded GCC, 64-bit) 9.3.1 20200408 (release)
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

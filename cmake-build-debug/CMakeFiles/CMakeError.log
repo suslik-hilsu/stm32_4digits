@@ -1,0 +1,80 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/arm-none-eabi-gcc.exe 
+Build flags: -mthumb;-fno-builtin;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=softfp;-Wall;-std=gnu11;-ffunction-sections;-fdata-sections;-fomit-frame-pointer;-mabi=aapcs;-fno-unroll-loops;-ffast-math;-ftree-vectorize
+Id flags:  
+
+The output was:
+1
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-abort.o): in function `abort':
+abort.c:(.text.abort+0xa): undefined reference to `_exit'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-signalr.o): in function `_kill_r':
+signalr.c:(.text._kill_r+0x12): undefined reference to `_kill'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-signalr.o): in function `_getpid_r':
+signalr.c:(.text._getpid_r+0x0): undefined reference to `_getpid'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-sbrkr.o): in function `_sbrk_r':
+sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/arm-none-eabi-g++.exe 
+Build flags: -mthumb;-fno-builtin;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=softfp;-Wall;-std=c++14;-ffunction-sections;-fdata-sections;-fomit-frame-pointer;-mabi=aapcs;-fno-unroll-loops;-ffast-math;-ftree-vectorize
+Id flags:  
+
+The output was:
+1
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-abort.o): in function `abort':
+abort.c:(.text.abort+0xa): undefined reference to `_exit'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-signalr.o): in function `_kill_r':
+signalr.c:(.text._kill_r+0x12): undefined reference to `_kill'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-signalr.o): in function `_getpid_r':
+signalr.c:(.text._getpid_r+0x0): undefined reference to `_getpid'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-sbrkr.o): in function `_sbrk_r':
+sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/arm-none-eabi-gcc.exe 
+Build flags: -mthumb;-fno-builtin;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=softfp;-Wall;-std=gnu11;-ffunction-sections;-fdata-sections;-fomit-frame-pointer;-mabi=aapcs;-fno-unroll-loops;-ffast-math;-ftree-vectorize
+Id flags:  
+
+The output was:
+1
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-abort.o): in function `abort':
+abort.c:(.text.abort+0xa): undefined reference to `_exit'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-signalr.o): in function `_kill_r':
+signalr.c:(.text._kill_r+0x12): undefined reference to `_kill'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-signalr.o): in function `_getpid_r':
+signalr.c:(.text._getpid_r+0x0): undefined reference to `_getpid'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-sbrkr.o): in function `_sbrk_r':
+sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: E:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/arm-none-eabi-g++.exe 
+Build flags: -mthumb;-fno-builtin;-mcpu=cortex-m4;-mfpu=fpv4-sp-d16;-mfloat-abi=softfp;-Wall;-std=c++14;-ffunction-sections;-fdata-sections;-fomit-frame-pointer;-mabi=aapcs;-fno-unroll-loops;-ffast-math;-ftree-vectorize
+Id flags:  
+
+The output was:
+1
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-abort.o): in function `abort':
+abort.c:(.text.abort+0xa): undefined reference to `_exit'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-signalr.o): in function `_kill_r':
+signalr.c:(.text._kill_r+0x12): undefined reference to `_kill'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-signalr.o): in function `_getpid_r':
+signalr.c:(.text._getpid_r+0x0): undefined reference to `_getpid'
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a(lib_a-sbrkr.o): in function `_sbrk_r':
+sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+collect2.exe: error: ld returned 1 exit status
+
+
