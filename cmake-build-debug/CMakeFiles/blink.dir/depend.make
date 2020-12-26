@@ -75,6 +75,7 @@ CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj: ../libs/hal/include/
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj: ../libs/hal/include/stm32f4xx_ll_utils.h
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj: ../libs/hal/src/stm32f4xx_ll_utils.c
 
+CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/STM32F407xx.h
 CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/cmsis_armcc.h
 CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/cmsis_armclang.h
 CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/cmsis_compiler.h
@@ -83,7 +84,6 @@ CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/cmsis_iccarm.h
 CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/cmsis_version.h
 CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/core_cm4.h
 CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/mpu_armv7.h
-CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/stm32f407xx.h
 CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/stm32f4xx.h
 CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/cmsis/include/system_stm32f4xx.h
 CMakeFiles/blink.dir/src/main.cpp.obj: ../libs/hal/include/stm32f4xx_ll_bus.h

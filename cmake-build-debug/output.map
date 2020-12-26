@@ -60,8 +60,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x30 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj
  .debug_ranges  0x0000000000000000       0x50 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj
- .debug_line    0x0000000000000000      0x3af CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj
- .debug_str     0x0000000000000000      0x429 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj
+ .debug_line    0x0000000000000000      0x3d3 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj
+ .debug_str     0x0000000000000000      0x441 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj
  .comment       0x0000000000000000       0x44 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj
  .debug_frame   0x0000000000000000       0x50 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj
  .ARM.attributes
@@ -108,8 +108,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x80 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj
  .debug_ranges  0x0000000000000000       0x70 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj
- .debug_line    0x0000000000000000      0x6b2 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj
- .debug_str     0x0000000000000000      0x794 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj
+ .debug_line    0x0000000000000000      0x6d6 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj
+ .debug_str     0x0000000000000000      0x7ac CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj
  .comment       0x0000000000000000       0x44 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj
  .debug_frame   0x0000000000000000      0x118 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj
  .ARM.attributes
@@ -234,7 +234,7 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000188                . = ALIGN (0x4)
 
-.text           0x0000000008000188      0x3e8
+.text           0x0000000008000188      0x6a4
                 0x0000000008000188                . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -352,87 +352,91 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
  .text.LL_SetSystemCoreClock
                 0x0000000008000394        0xc CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
                 0x0000000008000394                LL_SetSystemCoreClock
+ .text._ZL10turnPinsOnv
+                0x00000000080003a0       0x30 CMakeFiles/blink.dir/src/main.cpp.obj
+ .text._ZL9showDigiti
+                0x00000000080003d0      0x198 CMakeFiles/blink.dir/src/main.cpp.obj
  .text._ZL5delaym
-                0x00000000080003a0       0x18 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000008000568       0x18 CMakeFiles/blink.dir/src/main.cpp.obj
  .text._ZL11setupClocksv
-                0x00000000080003b8       0xd4 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000008000580       0xd4 CMakeFiles/blink.dir/src/main.cpp.obj
  .text._ZL9setupGpiov
-                0x000000000800048c       0x44 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000008000654       0x68 CMakeFiles/blink.dir/src/main.cpp.obj
  .text.SysTick_Handler
-                0x00000000080004d0       0x10 CMakeFiles/blink.dir/src/main.cpp.obj
-                0x00000000080004d0                SysTick_Handler
- .text.main     0x00000000080004e0       0x30 CMakeFiles/blink.dir/src/main.cpp.obj
-                0x00000000080004e0                main
+                0x00000000080006bc       0x10 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x00000000080006bc                SysTick_Handler
+ .text.main     0x00000000080006cc      0x100 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x00000000080006cc                main
  .text.__libc_init_array
-                0x0000000008000510       0x48 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
-                0x0000000008000510                __libc_init_array
+                0x00000000080007cc       0x48 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
+                0x00000000080007cc                __libc_init_array
  *(.glue_7)
- .glue_7        0x0000000008000558        0x0 linker stubs
+ .glue_7        0x0000000008000814        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008000558        0x0 linker stubs
+ .glue_7t       0x0000000008000814        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008000558        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ .eh_frame      0x0000000008000814        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
  *(.init)
- .init          0x0000000008000558        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
-                0x0000000008000558                _init
- .init          0x000000000800055c        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
+ .init          0x0000000008000814        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
+                0x0000000008000814                _init
+ .init          0x0000000008000818        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
  *(.fini)
- .fini          0x0000000008000564        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
-                0x0000000008000564                _fini
- .fini          0x0000000008000568        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
-                0x0000000008000570                . = ALIGN (0x4)
-                0x0000000008000570                _etext = .
+ .fini          0x0000000008000820        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
+                0x0000000008000820                _fini
+ .fini          0x0000000008000824        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
+                0x000000000800082c                . = ALIGN (0x4)
+                0x000000000800082c                _etext = .
 
-.vfp11_veneer   0x0000000008000570        0x0
- .vfp11_veneer  0x0000000008000570        0x0 linker stubs
+.vfp11_veneer   0x000000000800082c        0x0
+ .vfp11_veneer  0x000000000800082c        0x0 linker stubs
 
-.v4_bx          0x0000000008000570        0x0
- .v4_bx         0x0000000008000570        0x0 linker stubs
+.v4_bx          0x000000000800082c        0x0
+ .v4_bx         0x000000000800082c        0x0 linker stubs
 
-.iplt           0x0000000008000570        0x0
- .iplt          0x0000000008000570        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+.iplt           0x000000000800082c        0x0
+ .iplt          0x000000000800082c        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.rodata         0x0000000008000570        0x0
-                0x0000000008000570                . = ALIGN (0x4)
+.rodata         0x000000000800082c        0x0
+                0x000000000800082c                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x0000000008000570                . = ALIGN (0x4)
+                0x000000000800082c                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008000570        0x8
-                0x0000000008000570                __exidx_start = .
+.ARM            0x000000000800082c        0x8
+                0x000000000800082c                __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.startup.__arm_set_fast_math
-                0x0000000008000570        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
-                0x0000000008000578                __exidx_end = .
+                0x000000000800082c        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+                0x0000000008000834                __exidx_end = .
 
-.rel.dyn        0x0000000008000578        0x0
- .rel.iplt      0x0000000008000578        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+.rel.dyn        0x0000000008000834        0x0
+ .rel.iplt      0x0000000008000834        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.preinit_array  0x0000000008000578        0x0
-                0x0000000008000578                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008000834        0x0
+                0x0000000008000834                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008000578                PROVIDE (__preinit_array_end = .)
+                0x0000000008000834                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008000578        0x8
-                0x0000000008000578                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008000834        0x8
+                0x0000000008000834                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008000578        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
- .init_array    0x000000000800057c        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
-                0x0000000008000580                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008000834        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+ .init_array    0x0000000008000838        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+                0x000000000800083c                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008000580        0x4
+.fini_array     0x000000000800083c        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008000580        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ .fini_array    0x000000000800083c        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008000584                _sidata = LOADADDR (.data)
+                0x0000000008000840                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0x4 load address 0x0000000008000584
+.data           0x0000000020000000        0x4 load address 0x0000000008000840
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -442,12 +446,12 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
                 0x0000000020000000                SystemCoreClock
                 0x0000000020000004                . = ALIGN (0x4)
                 0x0000000020000004                _edata = .
-                0x0000000008000588                _siccmram = LOADADDR (.ccmram)
+                0x0000000008000844                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x0000000020000004        0x0 load address 0x0000000008000588
+.igot.plt       0x0000000020000004        0x0 load address 0x0000000008000844
  .igot.plt      0x0000000020000004        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.ccmram         0x0000000010000000        0x0 load address 0x0000000008000588
+.ccmram         0x0000000010000000        0x0 load address 0x0000000008000844
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
@@ -517,36 +521,36 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../
 LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a
 LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a
 
-.debug_frame    0x0000000000000000      0x220
+.debug_frame    0x0000000000000000      0x250
  .debug_frame   0x0000000000000000       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
  .debug_frame   0x0000000000000020       0x30 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_frame   0x0000000000000050       0x54 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_frame   0x00000000000000a4       0xd4 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_frame   0x0000000000000178       0x7c CMakeFiles/blink.dir/src/main.cpp.obj
- .debug_frame   0x00000000000001f4       0x2c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000178       0xac CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_frame   0x0000000000000224       0x2c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
 
-.debug_line     0x0000000000000000     0x15aa
- .debug_line    0x0000000000000000       0x8f CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
- .debug_line    0x000000000000008f      0x235 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
- .debug_line    0x00000000000002c4      0x6d3 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
- .debug_line    0x0000000000000997      0x759 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_line    0x00000000000010f0      0x4ba CMakeFiles/blink.dir/src/main.cpp.obj
+.debug_line     0x0000000000000000     0x1990
+ .debug_line    0x0000000000000000       0x9b CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
+ .debug_line    0x000000000000009b      0x24d CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
+ .debug_line    0x00000000000002e8      0x6f7 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
+ .debug_line    0x00000000000009df      0x77d CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
+ .debug_line    0x000000000000115c      0x834 CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_info     0x0000000000000000     0x2cea
+.debug_info     0x0000000000000000     0x2f29
  .debug_info    0x0000000000000000       0x22 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_info    0x0000000000000022      0x55b CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_info    0x000000000000057d      0xd18 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_info    0x0000000000001295      0xc9c CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_info    0x0000000000001f31      0xdb9 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_info    0x0000000000001f31      0xff8 CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_abbrev   0x0000000000000000      0x904
+.debug_abbrev   0x0000000000000000      0x92b
  .debug_abbrev  0x0000000000000000       0x12 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_abbrev  0x0000000000000012      0x12c CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_abbrev  0x000000000000013e      0x293 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_abbrev  0x00000000000003d1      0x27a CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_abbrev  0x000000000000064b      0x2b9 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_abbrev  0x000000000000064b      0x2e0 CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_aranges  0x0000000000000000      0x120
+.debug_aranges  0x0000000000000000      0x130
  .debug_aranges
                 0x0000000000000000       0x28 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_aranges
@@ -556,31 +560,31 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
  .debug_aranges
                 0x0000000000000080       0x60 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
  .debug_aranges
-                0x00000000000000e0       0x40 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x00000000000000e0       0x50 CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_str      0x0000000000000000     0x10fd
- .debug_str     0x0000000000000000       0x63 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
- .debug_str     0x0000000000000063      0x369 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
-                                        0x3fa (size before relaxing)
- .debug_str     0x00000000000003cc      0x1a1 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
-                                        0x524 (size before relaxing)
- .debug_str     0x000000000000056d      0x3d3 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
-                                        0x77a (size before relaxing)
- .debug_str     0x0000000000000940      0x7bd CMakeFiles/blink.dir/src/main.cpp.obj
-                                        0xc51 (size before relaxing)
+.debug_str      0x0000000000000000     0x1171
+ .debug_str     0x0000000000000000       0x7b CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
+ .debug_str     0x000000000000007b      0x375 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
+                                        0x412 (size before relaxing)
+ .debug_str     0x00000000000003f0      0x1ad CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
+                                        0x53c (size before relaxing)
+ .debug_str     0x000000000000059d      0x3df CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
+                                        0x792 (size before relaxing)
+ .debug_str     0x000000000000097c      0x7f5 CMakeFiles/blink.dir/src/main.cpp.obj
+                                        0xc95 (size before relaxing)
 
-.debug_ranges   0x0000000000000000      0x1b0
+.debug_ranges   0x0000000000000000      0x1c0
  .debug_ranges  0x0000000000000000       0x20 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_ranges  0x0000000000000020       0x18 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_ranges  0x0000000000000038       0xf8 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_ranges  0x0000000000000130       0x50 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_ranges  0x0000000000000180       0x30 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_ranges  0x0000000000000180       0x40 CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_loc      0x0000000000000000      0xfc2
+.debug_loc      0x0000000000000000     0x100f
  .debug_loc     0x0000000000000000      0x16c CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_loc     0x000000000000016c      0x702 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_loc     0x000000000000086e      0x61f CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_loc     0x0000000000000e8d      0x135 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_loc     0x0000000000000e8d      0x182 CMakeFiles/blink.dir/src/main.cpp.obj
 
 .comment        0x0000000000000000       0x43
  .comment       0x0000000000000000       0x43 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj

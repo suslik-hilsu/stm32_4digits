@@ -54,19 +54,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.8194.17\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.8194.17\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\stm_test\proj
+CMAKE_SOURCE_DIR = E:\MK\projects\stm_test\proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\stm_test\proj\cmake-build-release
+CMAKE_BINARY_DIR = E:\MK\projects\stm_test\proj\cmake-build-release
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -97,14 +97,14 @@ clean: CMakeFiles/blink.bin.dir/clean
 CMakeFiles/blink.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\blink.dir\build.make CMakeFiles/blink.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\blink.dir\build.make CMakeFiles/blink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\stm_test\proj\cmake-build-release\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target blink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-release\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target blink"
 .PHONY : CMakeFiles/blink.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/blink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\stm_test\proj\cmake-build-release\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MK\projects\stm_test\proj\cmake-build-release\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/blink.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\stm_test\proj\cmake-build-release\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MK\projects\stm_test\proj\cmake-build-release\CMakeFiles 0
 .PHONY : CMakeFiles/blink.dir/rule
 
 # Convenience name for target.
@@ -124,14 +124,14 @@ CMakeFiles/blink.dir/clean:
 CMakeFiles/blink.hex.dir/all: CMakeFiles/blink.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\blink.hex.dir\build.make CMakeFiles/blink.hex.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\blink.hex.dir\build.make CMakeFiles/blink.hex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\stm_test\proj\cmake-build-release\CMakeFiles --progress-num= "Built target blink.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-release\CMakeFiles --progress-num= "Built target blink.hex"
 .PHONY : CMakeFiles/blink.hex.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/blink.hex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\stm_test\proj\cmake-build-release\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MK\projects\stm_test\proj\cmake-build-release\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/blink.hex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\stm_test\proj\cmake-build-release\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MK\projects\stm_test\proj\cmake-build-release\CMakeFiles 0
 .PHONY : CMakeFiles/blink.hex.dir/rule
 
 # Convenience name for target.
@@ -151,14 +151,14 @@ CMakeFiles/blink.hex.dir/clean:
 CMakeFiles/blink.bin.dir/all: CMakeFiles/blink.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\blink.bin.dir\build.make CMakeFiles/blink.bin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\blink.bin.dir\build.make CMakeFiles/blink.bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\stm_test\proj\cmake-build-release\CMakeFiles --progress-num= "Built target blink.bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-release\CMakeFiles --progress-num= "Built target blink.bin"
 .PHONY : CMakeFiles/blink.bin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/blink.bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\stm_test\proj\cmake-build-release\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MK\projects\stm_test\proj\cmake-build-release\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/blink.bin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\stm_test\proj\cmake-build-release\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\MK\projects\stm_test\proj\cmake-build-release\CMakeFiles 0
 .PHONY : CMakeFiles/blink.bin.dir/rule
 
 # Convenience name for target.

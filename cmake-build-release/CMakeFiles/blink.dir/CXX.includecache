@@ -134,7 +134,7 @@ stm32f4xx.h
 stm32f4xx.h
 ../libs/hal/include/stm32f4xx.h
 
-E:/stm_test/proj/src/main.cpp
+E:/MK/projects/stm_test/proj/src/main.cpp
 stm32f4xx.h
 -
 stm32f4xx_ll_rcc.h

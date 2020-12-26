@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/stm_test/proj/cmake-build-debug"/>
+				<Option working_dir="E:/MK/projects/stm_test/proj/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="blink">
-				<Option output="E:/stm_test/proj/cmake-build-debug/blink" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/stm_test/proj/cmake-build-debug"/>
+				<Option output="E:/MK/projects/stm_test/proj/cmake-build-debug/blink" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MK/projects/stm_test/proj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -27,10 +27,10 @@
 					<Add option="-DSTM32F4"/>
 					<Add option="-DSTM32F407xx"/>
 					<Add option="-DUSE_FULL_LL_DRIVER"/>
-					<Add directory="E:/stm_test/proj/libs/cmsis/include"/>
-					<Add directory="E:/stm_test/proj/libs/hal/include"/>
-					<Add directory="E:/stm_test/proj/src"/>
-					<Add directory="E:/stm_test/proj/include"/>
+					<Add directory="E:/MK/projects/stm_test/proj/libs/cmsis/include"/>
+					<Add directory="E:/MK/projects/stm_test/proj/libs/hal/include"/>
+					<Add directory="E:/MK/projects/stm_test/proj/src"/>
+					<Add directory="E:/MK/projects/stm_test/proj/include"/>
 					<Add directory="e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
 					<Add directory="e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
 					<Add directory="e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
@@ -39,15 +39,15 @@
 					<Add directory="e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 blink"/>
-					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 blink"/>
+					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="blink/fast">
-				<Option output="E:/stm_test/proj/cmake-build-debug/blink" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/stm_test/proj/cmake-build-debug"/>
+				<Option output="E:/MK/projects/stm_test/proj/cmake-build-debug/blink" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MK/projects/stm_test/proj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,10 +55,10 @@
 					<Add option="-DSTM32F4"/>
 					<Add option="-DSTM32F407xx"/>
 					<Add option="-DUSE_FULL_LL_DRIVER"/>
-					<Add directory="E:/stm_test/proj/libs/cmsis/include"/>
-					<Add directory="E:/stm_test/proj/libs/hal/include"/>
-					<Add directory="E:/stm_test/proj/src"/>
-					<Add directory="E:/stm_test/proj/include"/>
+					<Add directory="E:/MK/projects/stm_test/proj/libs/cmsis/include"/>
+					<Add directory="E:/MK/projects/stm_test/proj/libs/hal/include"/>
+					<Add directory="E:/MK/projects/stm_test/proj/src"/>
+					<Add directory="E:/MK/projects/stm_test/proj/include"/>
 					<Add directory="e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
 					<Add directory="e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
 					<Add directory="e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
@@ -67,84 +67,84 @@
 					<Add directory="e:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 blink/fast"/>
-					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 blink/fast"/>
+					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="blink.hex">
-				<Option working_dir="E:/stm_test/proj/cmake-build-debug"/>
+				<Option working_dir="E:/MK/projects/stm_test/proj/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 blink.hex"/>
-					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 blink.hex"/>
+					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="blink.bin">
-				<Option working_dir="E:/stm_test/proj/cmake-build-debug"/>
+				<Option working_dir="E:/MK/projects/stm_test/proj/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 blink.bin"/>
-					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 blink.bin"/>
+					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/stm_test/proj/cmake-build-debug"/>
+				<Option working_dir="E:/MK/projects/stm_test/proj/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/stm_test/proj/cmake-build-debug"/>
+				<Option working_dir="E:/MK/projects/stm_test/proj/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WinGW/mingw32/bin/mingw32-make.exe -f &quot;E:/MK/projects/stm_test/proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/stm_test/proj/libs/cmsis/startup_stm32f407xx.s">
+		<Unit filename="E:/MK/projects/stm_test/proj/libs/cmsis/startup_stm32f407xx.s">
 			<Option target="blink"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/libs/cmsis/system_stm32f4xx.c">
+		<Unit filename="E:/MK/projects/stm_test/proj/libs/cmsis/system_stm32f4xx.c">
 			<Option target="blink"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/libs/hal/src/stm32f4xx_ll_exti.c">
+		<Unit filename="E:/MK/projects/stm_test/proj/libs/hal/src/stm32f4xx_ll_exti.c">
 			<Option target="blink"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/libs/hal/src/stm32f4xx_ll_gpio.c">
+		<Unit filename="E:/MK/projects/stm_test/proj/libs/hal/src/stm32f4xx_ll_gpio.c">
 			<Option target="blink"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/libs/hal/src/stm32f4xx_ll_rcc.c">
+		<Unit filename="E:/MK/projects/stm_test/proj/libs/hal/src/stm32f4xx_ll_rcc.c">
 			<Option target="blink"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/libs/hal/src/stm32f4xx_ll_utils.c">
+		<Unit filename="E:/MK/projects/stm_test/proj/libs/hal/src/stm32f4xx_ll_utils.c">
 			<Option target="blink"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/src/main.cpp">
+		<Unit filename="E:/MK/projects/stm_test/proj/src/main.cpp">
 			<Option target="blink"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/CMakeLists.txt">
+		<Unit filename="E:/MK/projects/stm_test/proj/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/cmake/gcc_stm32.cmake">
+		<Unit filename="E:/MK/projects/stm_test/proj/cmake/gcc_stm32.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/cmake/gcc_stm32f4.cmake">
+		<Unit filename="E:/MK/projects/stm_test/proj/cmake/gcc_stm32f4.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="E:/stm_test/proj/cmake/stm32_linker.cmake">
+		<Unit filename="E:/MK/projects/stm_test/proj/cmake/stm32_linker.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>

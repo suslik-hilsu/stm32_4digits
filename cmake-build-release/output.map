@@ -37,9 +37,9 @@ Discarded input sections
  .text          0x0000000000000000       0x14 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
- .text          0x0000000000000000        0x0 C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
  .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-exit.o)
  .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-exit.o)
  .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-exit.o)
@@ -106,7 +106,7 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
 LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o
 LOAD CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
 LOAD CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
-LOAD C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
+LOAD C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
 LOAD CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj
 LOAD CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
 LOAD CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj
@@ -141,7 +141,7 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000188                . = ALIGN (0x4)
 
-.text           0x0000000008000188      0x2e0
+.text           0x0000000008000188      0x424
                 0x0000000008000188                . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -247,97 +247,101 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
                 0x0000000008000228                DMA2_Stream6_IRQHandler
                 0x0000000008000228                DMA1_Stream3_IRQHandler
  *fill*         0x000000000800022a        0x2 
+ .text._ZL10turnPinsOnv
+                0x000000000800022c       0x30 C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
+ .text.LL_GPIO_Init.constprop.0
+                0x000000000800025c      0x13c C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
  .text.startup.main
-                0x000000000800022c      0x1b0 C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
-                0x000000000800022c                main
+                0x0000000008000398      0x188 C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
+                0x0000000008000398                main
  .text.SysTick_Handler
-                0x00000000080003dc       0x10 C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
-                0x00000000080003dc                SysTick_Handler
+                0x0000000008000520       0x10 C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
+                0x0000000008000520                SysTick_Handler
  .text.SystemInit
-                0x00000000080003ec       0x1c C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
-                0x00000000080003ec                SystemInit
+                0x0000000008000530       0x1c C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
+                0x0000000008000530                SystemInit
  .text.__libc_init_array
-                0x0000000008000408       0x48 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-init.o)
-                0x0000000008000408                __libc_init_array
+                0x000000000800054c       0x48 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-init.o)
+                0x000000000800054c                __libc_init_array
  *(.glue_7)
- .glue_7        0x0000000008000450        0x0 linker stubs
+ .glue_7        0x0000000008000594        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008000450        0x0 linker stubs
+ .glue_7t       0x0000000008000594        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008000450        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ .eh_frame      0x0000000008000594        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
  *(.init)
- .init          0x0000000008000450        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
-                0x0000000008000450                _init
- .init          0x0000000008000454        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
+ .init          0x0000000008000594        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
+                0x0000000008000594                _init
+ .init          0x0000000008000598        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
  *(.fini)
- .fini          0x000000000800045c        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
-                0x000000000800045c                _fini
- .fini          0x0000000008000460        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
-                0x0000000008000468                . = ALIGN (0x4)
-                0x0000000008000468                _etext = .
+ .fini          0x00000000080005a0        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
+                0x00000000080005a0                _fini
+ .fini          0x00000000080005a4        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
+                0x00000000080005ac                . = ALIGN (0x4)
+                0x00000000080005ac                _etext = .
 
-.vfp11_veneer   0x0000000008000468        0x0
- .vfp11_veneer  0x0000000008000468        0x0 linker stubs
+.vfp11_veneer   0x00000000080005ac        0x0
+ .vfp11_veneer  0x00000000080005ac        0x0 linker stubs
 
-.v4_bx          0x0000000008000468        0x0
- .v4_bx         0x0000000008000468        0x0 linker stubs
+.v4_bx          0x00000000080005ac        0x0
+ .v4_bx         0x00000000080005ac        0x0 linker stubs
 
-.iplt           0x0000000008000468        0x0
- .iplt          0x0000000008000468        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+.iplt           0x00000000080005ac        0x0
+ .iplt          0x00000000080005ac        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.rodata         0x0000000008000468        0x0
-                0x0000000008000468                . = ALIGN (0x4)
+.rodata         0x00000000080005ac        0x0
+                0x00000000080005ac                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x0000000008000468                . = ALIGN (0x4)
+                0x00000000080005ac                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008000468        0x8
-                0x0000000008000468                __exidx_start = .
+.ARM            0x00000000080005ac        0x8
+                0x00000000080005ac                __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.startup.__arm_set_fast_math
-                0x0000000008000468        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
-                0x0000000008000470                __exidx_end = .
+                0x00000000080005ac        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+                0x00000000080005b4                __exidx_end = .
 
-.rel.dyn        0x0000000008000470        0x0
- .rel.iplt      0x0000000008000470        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+.rel.dyn        0x00000000080005b4        0x0
+ .rel.iplt      0x00000000080005b4        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.preinit_array  0x0000000008000470        0x0
-                0x0000000008000470                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00000000080005b4        0x0
+                0x00000000080005b4                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008000470                PROVIDE (__preinit_array_end = .)
+                0x00000000080005b4                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008000470        0x8
-                0x0000000008000470                PROVIDE (__init_array_start = .)
+.init_array     0x00000000080005b4        0x8
+                0x00000000080005b4                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008000470        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
- .init_array    0x0000000008000474        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
-                0x0000000008000478                PROVIDE (__init_array_end = .)
+ .init_array    0x00000000080005b4        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+ .init_array    0x00000000080005b8        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+                0x00000000080005bc                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008000478        0x4
+.fini_array     0x00000000080005bc        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008000478        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ .fini_array    0x00000000080005bc        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000000800047c                _sidata = LOADADDR (.data)
+                0x00000000080005c0                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0x0 load address 0x000000000800047c
+.data           0x0000000020000000        0x0 load address 0x00000000080005c0
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
  *(.data*)
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _edata = .
-                0x000000000800047c                _siccmram = LOADADDR (.ccmram)
+                0x00000000080005c0                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x0000000020000000        0x0 load address 0x000000000800047c
+.igot.plt       0x0000000020000000        0x0 load address 0x00000000080005c0
  .igot.plt      0x0000000020000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.ccmram         0x0000000010000000        0x0 load address 0x000000000800047c
+.ccmram         0x0000000010000000        0x0 load address 0x00000000080005c0
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
@@ -357,7 +361,7 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
  .bss.object.10282
                 0x0000000020000004       0x18 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
  .bss._ZL9tickCount
-                0x000000002000001c        0x4 C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
+                0x000000002000001c        0x4 C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
  *(COMMON)
                 0x0000000020000020                . = ALIGN (0x4)
                 0x0000000020000020                _ebss = .
@@ -390,7 +394,7 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
  .ARM.attributes
                 0x0000000000000082       0x21 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .ARM.attributes
-                0x00000000000000a3       0x2c C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
+                0x00000000000000a3       0x2c C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
  .ARM.attributes
                 0x00000000000000cf       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc_nano.a(lib_a-init.o)
  .ARM.attributes
@@ -402,5 +406,5 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../
 LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a
 
 .comment        0x0000000000000000       0x43
- .comment       0x0000000000000000       0x43 C:\Users\rusla\AppData\Local\Temp\blink.jXTHQc.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x43 C:\Users\rusla\AppData\Local\Temp\blink.pcowH5.ltrans0.ltrans.o
                                          0x44 (size before relaxing)

@@ -8,17 +8,17 @@ ASM_FLAGS = -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -x asse
 
 ASM_DEFINES = -DSTM32F4 -DSTM32F407xx -DUSE_FULL_LL_DRIVER
 
-ASM_INCLUDES = -IE:\stm_test\proj\libs\cmsis\include -IE:\stm_test\proj\libs\hal\include -IE:\stm_test\proj\src -IE:\stm_test\proj\include 
+ASM_INCLUDES = -IE:\MK\projects\stm_test\proj\libs\cmsis\include -IE:\MK\projects\stm_test\proj\libs\hal\include -IE:\MK\projects\stm_test\proj\src -IE:\MK\projects\stm_test\proj\include 
 
 C_FLAGS = -fno-unwind-tables -fno-exceptions -mthumb -fno-builtin -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wall -std=gnu11 -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -Os -flto  
 
 C_DEFINES = -DSTM32F4 -DSTM32F407xx -DUSE_FULL_LL_DRIVER
 
-C_INCLUDES = -IE:\stm_test\proj\libs\cmsis\include -IE:\stm_test\proj\libs\hal\include -IE:\stm_test\proj\src -IE:\stm_test\proj\include 
+C_INCLUDES = -IE:\MK\projects\stm_test\proj\libs\cmsis\include -IE:\MK\projects\stm_test\proj\libs\hal\include -IE:\MK\projects\stm_test\proj\src -IE:\MK\projects\stm_test\proj\include 
 
 CXX_FLAGS = -fno-unwind-tables -fno-exceptions -fno-rtti -mthumb -fno-builtin -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wall -std=c++14 -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -Os -flto  
 
 CXX_DEFINES = -DSTM32F4 -DSTM32F407xx -DUSE_FULL_LL_DRIVER
 
-CXX_INCLUDES = -IE:\stm_test\proj\libs\cmsis\include -IE:\stm_test\proj\libs\hal\include -IE:\stm_test\proj\src -IE:\stm_test\proj\include 
+CXX_INCLUDES = -IE:\MK\projects\stm_test\proj\libs\cmsis\include -IE:\MK\projects\stm_test\proj\libs\hal\include -IE:\MK\projects\stm_test\proj\src -IE:\MK\projects\stm_test\proj\include 
 

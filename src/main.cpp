@@ -40,17 +40,130 @@ static void setupClocks() {
     NVIC_EnableIRQ(SysTick_IRQn);
     SysTick->CTRL |= SysTick_CTRL_TICKINT_Msk;
 }
+static void turnPinsOn(){
+
+    GPIOC->BSRR = LL_GPIO_PIN_6;
+    GPIOC->BSRR = LL_GPIO_PIN_7;
+    GPIOC->BSRR = LL_GPIO_PIN_8;
+    GPIOC->BSRR = LL_GPIO_PIN_9;
+
+    GPIOA->BSRR = LL_GPIO_PIN_8;
+    GPIOA->BSRR = LL_GPIO_PIN_9;
+    GPIOA->BSRR = LL_GPIO_PIN_10;
+    GPIOA->BSRR = LL_GPIO_PIN_13;
+
+}
+static void showDigit(int digit){
+
+    turnPinsOn();
+    if(digit==1)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_6<<16;
+        return;
+    }
+    if(digit==2)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_13<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_7<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_9<<16;
+        return;
+    }
+    if(digit==3)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_13<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_6<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_9<<16;
+        return;
+    }
+    if(digit==4)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_10<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_6<<16;
+        return;
+    }
+
+    if(digit==5)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_13<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_10<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_6<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_9<<16;
+        return;
+    }
+
+    if(digit==6)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_13<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_10<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_7<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_6<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_9<<16;
+        return;
+    }
+
+    if(digit==7)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_13<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_6<<16;
+        return;
+    }
+
+    if(digit==8)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_13<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_10<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_7<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_6<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_9<<16;
+    }
+
+    if(digit==9)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_13<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_10<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_6<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_9<<16;
+    }
+
+    if(digit==0)
+    {
+        GPIOA->BSRR = LL_GPIO_PIN_13<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_10<<16;
+        GPIOA->BSRR = LL_GPIO_PIN_8<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_7<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_6<<16;
+        GPIOC->BSRR = LL_GPIO_PIN_9<<16;
+    }
+}
 
 static void setupGpio() {
-    LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOD);
-
+    LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOA);
+    LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOC);
     LL_GPIO_InitTypeDef gpio = { 0 };
-    gpio.Pin = LL_GPIO_PIN_12 | LL_GPIO_PIN_13 | LL_GPIO_PIN_14 | LL_GPIO_PIN_15;
+    gpio.Pin = LL_GPIO_PIN_8 | LL_GPIO_PIN_9 | LL_GPIO_PIN_10 | LL_GPIO_PIN_13 | LL_GPIO_PIN_14 | LL_GPIO_PIN_15;
     gpio.Mode = LL_GPIO_MODE_OUTPUT;
     gpio.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
     gpio.Pull = LL_GPIO_PULL_NO;
     gpio.Speed = LL_GPIO_SPEED_FREQ_HIGH;
-    LL_GPIO_Init(GPIOD, &gpio);
+    LL_GPIO_Init(GPIOA, &gpio);
+
+    gpio.Pin = LL_GPIO_PIN_6 | LL_GPIO_PIN_7 | LL_GPIO_PIN_8 | LL_GPIO_PIN_9 | LL_GPIO_PIN_10 | LL_GPIO_PIN_11;
+
+    LL_GPIO_Init(GPIOC, &gpio);
 }
 
 static void delay(uint32_t millis) {
@@ -61,12 +174,30 @@ static void delay(uint32_t millis) {
 int main() {
     setupClocks();
     setupGpio();
-
+    int ticks;
+    int delay_time = 7;
     while (1) {
-        GPIOD->BSRR = LL_GPIO_PIN_12;
-        delay(1000);
-        GPIOD->BSRR = LL_GPIO_PIN_12 << 16;
-        delay(1000);
+        ticks = tickCount;
+        GPIOC->BSRR = LL_GPIO_PIN_10;
+        showDigit(ticks%10000/1000);
+        GPIOA->BSRR = LL_GPIO_PIN_9<<16;
+        delay(delay_time);
+        GPIOC->BSRR = LL_GPIO_PIN_10<<16;
+
+        GPIOC->BSRR = LL_GPIO_PIN_11;
+        showDigit(ticks%1000/100);
+        delay(delay_time);
+        GPIOC->BSRR = LL_GPIO_PIN_11<<16;
+
+        GPIOA->BSRR = LL_GPIO_PIN_14;
+        showDigit(ticks%100/10);
+        delay(delay_time);
+        GPIOA->BSRR = LL_GPIO_PIN_14<<16;
+
+        GPIOA->BSRR = LL_GPIO_PIN_15;
+        showDigit(ticks%10);
+        delay(delay_time);
+        GPIOA->BSRR = LL_GPIO_PIN_15<<16;
     }
 }
 #pragma clang diagnostic pop

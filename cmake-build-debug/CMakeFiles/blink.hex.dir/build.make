@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.8194.17\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.8194.17\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\stm_test\proj
+CMAKE_SOURCE_DIR = E:\MK\projects\stm_test\proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\stm_test\proj\cmake-build-debug
+CMAKE_BINARY_DIR = E:\MK\projects\stm_test\proj\cmake-build-debug
 
 # Utility rule file for blink.hex.
 
@@ -90,6 +90,6 @@ CMakeFiles/blink.hex.dir/clean:
 .PHONY : CMakeFiles/blink.hex.dir/clean
 
 CMakeFiles/blink.hex.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\stm_test\proj E:\stm_test\proj E:\stm_test\proj\cmake-build-debug E:\stm_test\proj\cmake-build-debug E:\stm_test\proj\cmake-build-debug\CMakeFiles\blink.hex.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\MK\projects\stm_test\proj E:\MK\projects\stm_test\proj E:\MK\projects\stm_test\proj\cmake-build-debug E:\MK\projects\stm_test\proj\cmake-build-debug E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles\blink.hex.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/blink.hex.dir/depend
 

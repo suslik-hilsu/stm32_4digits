@@ -1,5 +1,5 @@
-E:/stm_test/proj/cmake-build-debug/CMakeFiles/blink.dir
-E:/stm_test/proj/cmake-build-debug/CMakeFiles/blink.hex.dir
-E:/stm_test/proj/cmake-build-debug/CMakeFiles/blink.bin.dir
-E:/stm_test/proj/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/stm_test/proj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/MK/projects/stm_test/proj/cmake-build-debug/CMakeFiles/blink.dir
+E:/MK/projects/stm_test/proj/cmake-build-debug/CMakeFiles/blink.hex.dir
+E:/MK/projects/stm_test/proj/cmake-build-debug/CMakeFiles/blink.bin.dir
+E:/MK/projects/stm_test/proj/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/MK/projects/stm_test/proj/cmake-build-debug/CMakeFiles/rebuild_cache.dir

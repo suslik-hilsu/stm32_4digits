@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../libs/cmsis/include/STM32F407xx.h
+core_cm4.h
+../libs/cmsis/include/core_cm4.h
+system_stm32f4xx.h
+../libs/cmsis/include/system_stm32f4xx.h
+stdint.h
+-
+
 ../libs/cmsis/include/cmsis_armcc.h
 
 ../libs/cmsis/include/cmsis_armclang.h
@@ -50,21 +58,13 @@ mpu_armv7.h
 
 ../libs/cmsis/include/mpu_armv7.h
 
-../libs/cmsis/include/stm32f407xx.h
-core_cm4.h
-../libs/cmsis/include/core_cm4.h
-system_stm32f4xx.h
-../libs/cmsis/include/system_stm32f4xx.h
-stdint.h
--
-
 ../libs/cmsis/include/stm32f4xx.h
 stm32f405xx.h
 ../libs/cmsis/include/stm32f405xx.h
 stm32f415xx.h
 ../libs/cmsis/include/stm32f415xx.h
 stm32f407xx.h
-../libs/cmsis/include/stm32f407xx.h
+../libs/cmsis/include/STM32F407xx.h
 stm32f417xx.h
 ../libs/cmsis/include/stm32f417xx.h
 stm32f427xx.h
@@ -134,7 +134,7 @@ stm32f4xx.h
 stm32f4xx.h
 ../libs/hal/include/stm32f4xx.h
 
-E:/stm_test/proj/src/main.cpp
+E:/MK/projects/stm_test/proj/src/main.cpp
 stm32f4xx.h
 -
 stm32f4xx_ll_rcc.h

@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.8194.17\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Jetbrains Toolbox\apps\CLion\ch-0\202.8194.17\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\stm_test\proj
+CMAKE_SOURCE_DIR = E:\MK\projects\stm_test\proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\stm_test\proj\cmake-build-debug
+CMAKE_BINARY_DIR = E:\MK\projects\stm_test\proj\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/blink.dir/depend.make
@@ -78,86 +78,86 @@ include CMakeFiles/blink.dir/flags.make
 
 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj: ../libs/cmsis/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\blink.dir\libs\cmsis\startup_stm32f407xx.s.obj -c E:\stm_test\proj\libs\cmsis\startup_stm32f407xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj"
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\blink.dir\libs\cmsis\startup_stm32f407xx.s.obj -c E:\MK\projects\stm_test\proj\libs\cmsis\startup_stm32f407xx.s
 
 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj: ../libs/cmsis/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\cmsis\system_stm32f4xx.c.obj   -c E:\stm_test\proj\libs\cmsis\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj"
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\cmsis\system_stm32f4xx.c.obj   -c E:\MK\projects\stm_test\proj\libs\cmsis\system_stm32f4xx.c
 
 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.i"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\stm_test\proj\libs\cmsis\system_stm32f4xx.c > CMakeFiles\blink.dir\libs\cmsis\system_stm32f4xx.c.i
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MK\projects\stm_test\proj\libs\cmsis\system_stm32f4xx.c > CMakeFiles\blink.dir\libs\cmsis\system_stm32f4xx.c.i
 
 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.s"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\stm_test\proj\libs\cmsis\system_stm32f4xx.c -o CMakeFiles\blink.dir\libs\cmsis\system_stm32f4xx.c.s
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MK\projects\stm_test\proj\libs\cmsis\system_stm32f4xx.c -o CMakeFiles\blink.dir\libs\cmsis\system_stm32f4xx.c.s
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj: ../libs/hal/src/stm32f4xx_ll_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_exti.c.obj   -c E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj"
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_exti.c.obj   -c E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_exti.c
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.i"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_exti.c > CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_exti.c.i
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_exti.c > CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_exti.c.i
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.s"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_exti.c -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_exti.c.s
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_exti.c -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_exti.c.s
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj: ../libs/hal/src/stm32f4xx_ll_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_gpio.c.obj   -c E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj"
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_gpio.c.obj   -c E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_gpio.c
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.i"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_gpio.c > CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_gpio.c.i
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_gpio.c > CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_gpio.c.i
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.s"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_gpio.c -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_gpio.c.s
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_gpio.c -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_gpio.c.s
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj: ../libs/hal/src/stm32f4xx_ll_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_rcc.c.obj   -c E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj"
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_rcc.c.obj   -c E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_rcc.c
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.i"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_rcc.c > CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_rcc.c.i
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_rcc.c > CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_rcc.c.i
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.s"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_rcc.c -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_rcc.c.s
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_rcc.c -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_rcc.c.s
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj: ../libs/hal/src/stm32f4xx_ll_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_utils.c.obj   -c E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj"
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_utils.c.obj   -c E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_utils.c
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.i"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_utils.c > CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_utils.c.i
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_utils.c > CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_utils.c.i
 
 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.s"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\stm_test\proj\libs\hal\src\stm32f4xx_ll_utils.c -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_utils.c.s
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MK\projects\stm_test\proj\libs\hal\src\stm32f4xx_ll_utils.c -o CMakeFiles\blink.dir\libs\hal\src\stm32f4xx_ll_utils.c.s
 
 CMakeFiles/blink.dir/src/main.cpp.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/blink.dir/src/main.cpp.obj"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\blink.dir\src\main.cpp.obj -c E:\stm_test\proj\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/blink.dir/src/main.cpp.obj"
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\blink.dir\src\main.cpp.obj -c E:\MK\projects\stm_test\proj\src\main.cpp
 
 CMakeFiles/blink.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blink.dir/src/main.cpp.i"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\stm_test\proj\src\main.cpp > CMakeFiles\blink.dir\src\main.cpp.i
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\MK\projects\stm_test\proj\src\main.cpp > CMakeFiles\blink.dir\src\main.cpp.i
 
 CMakeFiles/blink.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blink.dir/src/main.cpp.s"
-	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\stm_test\proj\src\main.cpp -o CMakeFiles\blink.dir\src\main.cpp.s
+	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\MK\projects\stm_test\proj\src\main.cpp -o CMakeFiles\blink.dir\src\main.cpp.s
 
 # Object files for target blink
 blink_OBJECTS = \
@@ -181,7 +181,7 @@ blink: CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
 blink: CMakeFiles/blink.dir/src/main.cpp.obj
 blink: CMakeFiles/blink.dir/build.make
 blink: CMakeFiles/blink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable blink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable blink"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\blink.dir\link.txt --verbose=$(VERBOSE)
 	E:\xpack-arm-none-eabi-gcc-9.3.1-1.3\bin\arm-none-eabi-size.exe blink
 
@@ -195,6 +195,6 @@ CMakeFiles/blink.dir/clean:
 .PHONY : CMakeFiles/blink.dir/clean
 
 CMakeFiles/blink.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\stm_test\proj E:\stm_test\proj E:\stm_test\proj\cmake-build-debug E:\stm_test\proj\cmake-build-debug E:\stm_test\proj\cmake-build-debug\CMakeFiles\blink.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\MK\projects\stm_test\proj E:\MK\projects\stm_test\proj E:\MK\projects\stm_test\proj\cmake-build-debug E:\MK\projects\stm_test\proj\cmake-build-debug E:\MK\projects\stm_test\proj\cmake-build-debug\CMakeFiles\blink.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/blink.dir/depend
 

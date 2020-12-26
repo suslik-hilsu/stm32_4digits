@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "E:/stm_test/proj/libs/cmsis/startup_stm32f407xx.s" "E:/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj"
+  "E:/MK/projects/stm_test/proj/libs/cmsis/startup_stm32f407xx.s" "E:/MK/projects/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -25,11 +25,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../include"
   )
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/stm_test/proj/libs/cmsis/system_stm32f4xx.c" "E:/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj"
-  "E:/stm_test/proj/libs/hal/src/stm32f4xx_ll_exti.c" "E:/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj"
-  "E:/stm_test/proj/libs/hal/src/stm32f4xx_ll_gpio.c" "E:/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj"
-  "E:/stm_test/proj/libs/hal/src/stm32f4xx_ll_rcc.c" "E:/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj"
-  "E:/stm_test/proj/libs/hal/src/stm32f4xx_ll_utils.c" "E:/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj"
+  "E:/MK/projects/stm_test/proj/libs/cmsis/system_stm32f4xx.c" "E:/MK/projects/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj"
+  "E:/MK/projects/stm_test/proj/libs/hal/src/stm32f4xx_ll_exti.c" "E:/MK/projects/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_exti.c.obj"
+  "E:/MK/projects/stm_test/proj/libs/hal/src/stm32f4xx_ll_gpio.c" "E:/MK/projects/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj"
+  "E:/MK/projects/stm_test/proj/libs/hal/src/stm32f4xx_ll_rcc.c" "E:/MK/projects/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_rcc.c.obj"
+  "E:/MK/projects/stm_test/proj/libs/hal/src/stm32f4xx_ll_utils.c" "E:/MK/projects/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -48,7 +48,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/stm_test/proj/src/main.cpp" "E:/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/src/main.cpp.obj"
+  "E:/MK/projects/stm_test/proj/src/main.cpp" "E:/MK/projects/stm_test/proj/cmake-build-release/CMakeFiles/blink.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
