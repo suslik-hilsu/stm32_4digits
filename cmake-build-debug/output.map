@@ -1,15 +1,101 @@
 Archive member included to satisfy reference by file (symbol)
 
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o)
+                              CMakeFiles/blink.dir/src/main.cpp.obj (pow)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o) (__ieee754_pow)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_sqrt.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o) (__ieee754_sqrt)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_fabs.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o) (fabs)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_finite.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o) (finite)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_lib_ver.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o) (__fdlib_version)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_nan.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o) (nan)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o) (rint)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_scalbn.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o) (scalbn)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldf3.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o) (__aeabi_dmul)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_addsubdf3.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o) (__aeabi_dsub)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldivdf3.o)
+                              CMakeFiles/blink.dir/src/main.cpp.obj (__aeabi_ddiv)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_cmpdf2.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o) (__aeabi_dcmpeq)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_unorddf2.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o) (__aeabi_dcmpun)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_fixunsdfsi.o)
+                              CMakeFiles/blink.dir/src/main.cpp.obj (__aeabi_d2uiz)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o) (__aeabi_unwind_cpp_pr0)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(libunwind.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o) (restore_core_regs)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-abort.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o) (abort)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-errno.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o) (__errno)
 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-exit.o)
                               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o (exit)
 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
                               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
                               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o (__libc_init_array)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memcpy-stub.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o) (memcpy)
 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memset.o)
                               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o (memset)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-abort.o) (raise)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o) (_kill_r)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o) (_malloc_r)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o) (errno)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-sbrkr.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-mlock.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o) (__malloc_lock)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-freer.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o) (_free_r)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o) (_getpid)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o) (_kill)
+e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-sbrkr.o) (_sbrk)
 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
-                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-exit.o) (_exit)
+                              e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-abort.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+errno               0x4               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+__lock___env_recursive_mutex
+                    0x1               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex
+                    0x1               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
 
 Discarded input sections
 
@@ -134,6 +220,204 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/blink.dir/src/main.cpp.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.dir/src/main.cpp.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.dir/src/main.cpp.obj
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o)
+ .ARM.extab.text.pow
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_sqrt.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_sqrt.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_sqrt.o)
+ .ARM.extab.text.__ieee754_sqrt
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_sqrt.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_fabs.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_fabs.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_fabs.o)
+ .ARM.extab.text.fabs
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_fabs.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_finite.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_finite.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_finite.o)
+ .ARM.extab.text.finite
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_finite.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_lib_ver.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_lib_ver.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_lib_ver.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_nan.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_nan.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_nan.o)
+ .ARM.extab.text.nan
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_nan.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+ .ARM.extab.text.rint
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_scalbn.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_scalbn.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_scalbn.o)
+ .ARM.extab.text.scalbn
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_scalbn.o)
+ .text          0x0000000000000000      0x254 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldf3.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldf3.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x0000000000000000       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldf3.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_unorddf2.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_unorddf2.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_fixunsdfsi.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.selfrel_offset31
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.search_EIT_table
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__gnu_unwind_get_pr_addr
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.get_eit_entry
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.restore_non_core_regs
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_decode_typeinfo_ptr.isra.0
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.__gnu_unwind_24bit.isra.0
+                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__gnu_unwind_24bit.isra.0
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.__gnu_unwind_24bit.isra.0
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_DebugHook
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.unwind_phase2
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.unwind_phase2_forced
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text._Unwind_GetCFA
+                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_GetCFA
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text._Unwind_GetCFA
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__gnu_Unwind_RaiseException
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__gnu_Unwind_ForcedUnwind
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__gnu_Unwind_Resume
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__gnu_Unwind_Resume_or_Rethrow
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text._Unwind_Complete
+                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_Complete
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text._Unwind_Complete
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text._Unwind_DeleteException
+                0x0000000000000000        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_DeleteException
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text._Unwind_DeleteException
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_VRS_Get
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_GetGR
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_VRS_Set
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_SetGR
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__gnu_Unwind_Backtrace
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__gnu_unwind_pr_common
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__aeabi_unwind_cpp_pr0
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__aeabi_unwind_cpp_pr1
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text.__aeabi_unwind_cpp_pr2
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.extab.text._Unwind_VRS_Pop
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .debug_frame   0x0000000000000000      0x2e4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(libunwind.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(libunwind.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(libunwind.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.extab.text.next_unwind_byte
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .text._Unwind_GetGR.constprop.0
+                0x0000000000000000       0x1c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.extab.text._Unwind_GetGR.constprop.0
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.exidx.text._Unwind_GetGR.constprop.0
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .text.unwind_UCB_from_context
+                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.extab.text.unwind_UCB_from_context
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.exidx.text.unwind_UCB_from_context
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.extab.text.__gnu_unwind_execute
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .text.__gnu_unwind_frame
+                0x0000000000000000       0x2c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.extab.text.__gnu_unwind_frame
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.exidx.text.__gnu_unwind_frame
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .text._Unwind_GetRegionStart
+                0x0000000000000000        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.extab.text._Unwind_GetRegionStart
+                0x0000000000000000        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.exidx.text._Unwind_GetRegionStart
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .text._Unwind_GetLanguageSpecificData
+                0x0000000000000000       0x14 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.extab.text._Unwind_GetLanguageSpecificData
+                0x0000000000000000        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.exidx.text._Unwind_GetLanguageSpecificData
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .text.unlikely._Unwind_GetDataRelBase
+                0x0000000000000000        0x6 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.extab.text.unlikely._Unwind_GetDataRelBase
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.exidx.text.unlikely._Unwind_GetDataRelBase
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .text.unlikely._Unwind_GetTextRelBase
+                0x0000000000000000        0x6 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.extab.text.unlikely._Unwind_GetTextRelBase
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.exidx.text.unlikely._Unwind_GetTextRelBase
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .debug_frame   0x0000000000000000      0x104 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-abort.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-abort.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-abort.o)
+ .debug_frame   0x0000000000000000       0x28 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-abort.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-abort.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-errno.o)
  .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-exit.o)
  .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-exit.o)
  .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-exit.o)
@@ -144,17 +428,17 @@ Discarded input sections
  .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
  .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
  .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
- .data._impure_ptr
-                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
- .data.impure_data
-                0x0000000000000000       0x60 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
  .rodata._global_impure_ptr
                 0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
- .ARM.attributes
-                0x0000000000000000       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
  .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
  .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
  .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000000       0x28 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memcpy-stub.o)
  .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memset.o)
  .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memset.o)
  .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memset.o)
@@ -162,14 +446,139 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memset.o)
  .ARM.attributes
                 0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .text._init_signal_r
+                0x0000000000000000       0x28 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .text._signal_r
+                0x0000000000000000       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .text.__sigtramp_r
+                0x0000000000000000       0x48 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .text.signal   0x0000000000000000       0x10 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .text._init_signal
+                0x0000000000000000        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .text.__sigtramp
+                0x0000000000000000       0x10 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .debug_frame   0x0000000000000000       0xcc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o)
+ .debug_frame   0x0000000000000000       0x3c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x0000000000000000       0xb4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_free_list
+                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000000000       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xb8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000000000       0x5c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000000000000       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000000       0x2c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x0000000000000000        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-mlock.o)
+ .text.__malloc_unlock
+                0x0000000000000000        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000000       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x0000000000000000       0xa0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000000000       0x38 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x2 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x0000000000000000        0x2 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x2 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x2 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x2 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x0000000000000000        0x2 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x2 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x0000000000000000        0x2 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000000       0xb0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ COMMON         0x0000000000000000        0x9 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+ .stab          0x0000000000000000       0x24 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+ .ARM.extab.text._getpid
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+ .debug_frame   0x0000000000000000       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+ .stab          0x0000000000000000       0x18 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+                                         0x24 (size before relaxing)
+ .ARM.extab.text._kill
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+ .debug_frame   0x0000000000000000       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+ .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
+ .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
+ .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
+ .text._sbrk    0x0000000000000000       0x1c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
+ .ARM.extab.text._sbrk
+                0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
+ .ARM.exidx.text._sbrk
+                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
+ .bss.heap_end.5507
+                0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
+ .debug_frame   0x0000000000000000       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(sbrk.o)
  .text          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
  .data          0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
  .bss           0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
- .text._exit    0x0000000000000000        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
  .ARM.extab.text._exit
                 0x0000000000000000        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
- .ARM.exidx.text._exit
-                0x0000000000000000        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
  .debug_frame   0x0000000000000000       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
  .ARM.attributes
                 0x0000000000000000       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
@@ -234,209 +643,471 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000188                . = ALIGN (0x4)
 
-.text           0x0000000008000188      0x6a4
+.text           0x0000000008000188     0x2db4
                 0x0000000008000188                . = ALIGN (0x4)
  *(.text)
+ .text          0x0000000008000188      0x378 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_addsubdf3.o)
+                0x0000000008000188                __aeabi_drsub
+                0x0000000008000190                __aeabi_dsub
+                0x0000000008000190                __subdf3
+                0x0000000008000194                __aeabi_dadd
+                0x0000000008000194                __adddf3
+                0x000000000800040c                __floatunsidf
+                0x000000000800040c                __aeabi_ui2d
+                0x000000000800042c                __floatsidf
+                0x000000000800042c                __aeabi_i2d
+                0x0000000008000450                __aeabi_f2d
+                0x0000000008000450                __extendsfdf2
+                0x0000000008000494                __floatundidf
+                0x0000000008000494                __aeabi_ul2d
+                0x00000000080004a4                __floatdidf
+                0x00000000080004a4                __aeabi_l2d
+ .text          0x0000000008000500      0x424 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldivdf3.o)
+                0x0000000008000500                __aeabi_dmul
+                0x0000000008000500                __muldf3
+                0x0000000008000754                __divdf3
+                0x0000000008000754                __aeabi_ddiv
+ .text          0x0000000008000924      0x110 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_cmpdf2.o)
+                0x0000000008000924                __gtdf2
+                0x0000000008000924                __gedf2
+                0x000000000800092c                __ltdf2
+                0x000000000800092c                __ledf2
+                0x0000000008000934                __nedf2
+                0x0000000008000934                __eqdf2
+                0x0000000008000934                __cmpdf2
+                0x00000000080009b0                __aeabi_cdrcmple
+                0x00000000080009c0                __aeabi_cdcmpeq
+                0x00000000080009c0                __aeabi_cdcmple
+                0x00000000080009d0                __aeabi_dcmpeq
+                0x00000000080009e4                __aeabi_dcmplt
+                0x00000000080009f8                __aeabi_dcmple
+                0x0000000008000a0c                __aeabi_dcmpge
+                0x0000000008000a20                __aeabi_dcmpgt
+ .text          0x0000000008000a34       0x2c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_unorddf2.o)
+                0x0000000008000a34                __unorddf2
+                0x0000000008000a34                __aeabi_dcmpun
+ .text          0x0000000008000a60       0x40 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_fixunsdfsi.o)
+                0x0000000008000a60                __aeabi_d2uiz
+                0x0000000008000a60                __fixunsdfsi
+ .text          0x0000000008000aa0      0x1ac e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(libunwind.o)
+                0x0000000008000aa0                __restore_core_regs
+                0x0000000008000aa0                restore_core_regs
+                0x0000000008000ab8                __gnu_Unwind_Restore_VFP
+                0x0000000008000ac0                __gnu_Unwind_Save_VFP
+                0x0000000008000ac8                __gnu_Unwind_Restore_VFP_D
+                0x0000000008000ad0                __gnu_Unwind_Save_VFP_D
+                0x0000000008000ad8                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x0000000008000ae0                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x0000000008000ae8                __gnu_Unwind_Restore_WMMXD
+                0x0000000008000b2c                __gnu_Unwind_Save_WMMXD
+                0x0000000008000b70                __gnu_Unwind_Restore_WMMXC
+                0x0000000008000b84                __gnu_Unwind_Save_WMMXC
+                0x0000000008000b98                ___Unwind_RaiseException
+                0x0000000008000b98                _Unwind_RaiseException
+                0x0000000008000bbc                _Unwind_Resume
+                0x0000000008000bbc                ___Unwind_Resume
+                0x0000000008000be0                _Unwind_Resume_or_Rethrow
+                0x0000000008000be0                ___Unwind_Resume_or_Rethrow
+                0x0000000008000c04                _Unwind_ForcedUnwind
+                0x0000000008000c04                ___Unwind_ForcedUnwind
+                0x0000000008000c28                ___Unwind_Backtrace
+                0x0000000008000c28                _Unwind_Backtrace
  *(.text*)
  .text.startup.__arm_set_fast_math
-                0x0000000008000188       0x10 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+                0x0000000008000c4c       0x10 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
  .text.__do_global_dtors_aux
-                0x0000000008000198       0x24 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+                0x0000000008000c5c       0x24 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
  .text.frame_dummy
-                0x00000000080001bc       0x1c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+                0x0000000008000c80       0x1c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
  .text.Reset_Handler
-                0x00000000080001d8       0x50 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
-                0x00000000080001d8                Reset_Handler
+                0x0000000008000c9c       0x50 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
+                0x0000000008000c9c                Reset_Handler
  .text.Default_Handler
-                0x0000000008000228        0x2 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
-                0x0000000008000228                RTC_Alarm_IRQHandler
-                0x0000000008000228                HASH_RNG_IRQHandler
-                0x0000000008000228                EXTI2_IRQHandler
-                0x0000000008000228                TIM8_CC_IRQHandler
-                0x0000000008000228                DebugMon_Handler
-                0x0000000008000228                TIM1_CC_IRQHandler
-                0x0000000008000228                DMA2_Stream5_IRQHandler
-                0x0000000008000228                HardFault_Handler
-                0x0000000008000228                DMA1_Stream5_IRQHandler
-                0x0000000008000228                PVD_IRQHandler
-                0x0000000008000228                SDIO_IRQHandler
-                0x0000000008000228                TAMP_STAMP_IRQHandler
-                0x0000000008000228                PendSV_Handler
-                0x0000000008000228                NMI_Handler
-                0x0000000008000228                CAN2_RX1_IRQHandler
-                0x0000000008000228                EXTI3_IRQHandler
-                0x0000000008000228                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0000000008000228                TIM1_UP_TIM10_IRQHandler
-                0x0000000008000228                TIM8_UP_TIM13_IRQHandler
-                0x0000000008000228                I2C3_ER_IRQHandler
-                0x0000000008000228                EXTI0_IRQHandler
-                0x0000000008000228                I2C2_EV_IRQHandler
-                0x0000000008000228                DMA1_Stream2_IRQHandler
-                0x0000000008000228                CAN1_RX0_IRQHandler
-                0x0000000008000228                FPU_IRQHandler
-                0x0000000008000228                OTG_HS_WKUP_IRQHandler
-                0x0000000008000228                UsageFault_Handler
-                0x0000000008000228                CAN2_SCE_IRQHandler
-                0x0000000008000228                DMA2_Stream2_IRQHandler
-                0x0000000008000228                SPI1_IRQHandler
-                0x0000000008000228                TIM6_DAC_IRQHandler
-                0x0000000008000228                TIM1_BRK_TIM9_IRQHandler
-                0x0000000008000228                DCMI_IRQHandler
-                0x0000000008000228                CAN2_RX0_IRQHandler
-                0x0000000008000228                DMA2_Stream3_IRQHandler
-                0x0000000008000228                USART6_IRQHandler
-                0x0000000008000228                USART3_IRQHandler
-                0x0000000008000228                CAN1_RX1_IRQHandler
-                0x0000000008000228                UART5_IRQHandler
-                0x0000000008000228                DMA2_Stream0_IRQHandler
-                0x0000000008000228                TIM4_IRQHandler
-                0x0000000008000228                I2C1_EV_IRQHandler
-                0x0000000008000228                DMA1_Stream6_IRQHandler
-                0x0000000008000228                DMA1_Stream1_IRQHandler
-                0x0000000008000228                UART4_IRQHandler
-                0x0000000008000228                TIM3_IRQHandler
-                0x0000000008000228                RCC_IRQHandler
-                0x0000000008000228                TIM8_BRK_TIM12_IRQHandler
-                0x0000000008000228                Default_Handler
-                0x0000000008000228                EXTI15_10_IRQHandler
-                0x0000000008000228                ADC_IRQHandler
-                0x0000000008000228                DMA1_Stream7_IRQHandler
-                0x0000000008000228                TIM7_IRQHandler
-                0x0000000008000228                CAN2_TX_IRQHandler
-                0x0000000008000228                TIM5_IRQHandler
-                0x0000000008000228                DMA2_Stream7_IRQHandler
-                0x0000000008000228                I2C3_EV_IRQHandler
-                0x0000000008000228                EXTI9_5_IRQHandler
-                0x0000000008000228                RTC_WKUP_IRQHandler
-                0x0000000008000228                ETH_WKUP_IRQHandler
-                0x0000000008000228                SPI2_IRQHandler
-                0x0000000008000228                OTG_HS_EP1_IN_IRQHandler
-                0x0000000008000228                MemManage_Handler
-                0x0000000008000228                DMA1_Stream0_IRQHandler
-                0x0000000008000228                CAN1_TX_IRQHandler
-                0x0000000008000228                SVC_Handler
-                0x0000000008000228                EXTI4_IRQHandler
-                0x0000000008000228                FSMC_IRQHandler
-                0x0000000008000228                ETH_IRQHandler
-                0x0000000008000228                OTG_HS_EP1_OUT_IRQHandler
-                0x0000000008000228                WWDG_IRQHandler
-                0x0000000008000228                TIM2_IRQHandler
-                0x0000000008000228                OTG_FS_WKUP_IRQHandler
-                0x0000000008000228                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0000000008000228                OTG_HS_IRQHandler
-                0x0000000008000228                EXTI1_IRQHandler
-                0x0000000008000228                USART2_IRQHandler
-                0x0000000008000228                I2C2_ER_IRQHandler
-                0x0000000008000228                DMA2_Stream1_IRQHandler
-                0x0000000008000228                CAN1_SCE_IRQHandler
-                0x0000000008000228                FLASH_IRQHandler
-                0x0000000008000228                DMA2_Stream4_IRQHandler
-                0x0000000008000228                BusFault_Handler
-                0x0000000008000228                USART1_IRQHandler
-                0x0000000008000228                OTG_FS_IRQHandler
-                0x0000000008000228                SPI3_IRQHandler
-                0x0000000008000228                DMA1_Stream4_IRQHandler
-                0x0000000008000228                I2C1_ER_IRQHandler
-                0x0000000008000228                DMA2_Stream6_IRQHandler
-                0x0000000008000228                DMA1_Stream3_IRQHandler
- *fill*         0x000000000800022a        0x2 
+                0x0000000008000cec        0x2 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
+                0x0000000008000cec                RTC_Alarm_IRQHandler
+                0x0000000008000cec                HASH_RNG_IRQHandler
+                0x0000000008000cec                EXTI2_IRQHandler
+                0x0000000008000cec                TIM8_CC_IRQHandler
+                0x0000000008000cec                DebugMon_Handler
+                0x0000000008000cec                TIM1_CC_IRQHandler
+                0x0000000008000cec                DMA2_Stream5_IRQHandler
+                0x0000000008000cec                HardFault_Handler
+                0x0000000008000cec                DMA1_Stream5_IRQHandler
+                0x0000000008000cec                PVD_IRQHandler
+                0x0000000008000cec                SDIO_IRQHandler
+                0x0000000008000cec                TAMP_STAMP_IRQHandler
+                0x0000000008000cec                PendSV_Handler
+                0x0000000008000cec                NMI_Handler
+                0x0000000008000cec                CAN2_RX1_IRQHandler
+                0x0000000008000cec                EXTI3_IRQHandler
+                0x0000000008000cec                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008000cec                TIM1_UP_TIM10_IRQHandler
+                0x0000000008000cec                TIM8_UP_TIM13_IRQHandler
+                0x0000000008000cec                I2C3_ER_IRQHandler
+                0x0000000008000cec                EXTI0_IRQHandler
+                0x0000000008000cec                I2C2_EV_IRQHandler
+                0x0000000008000cec                DMA1_Stream2_IRQHandler
+                0x0000000008000cec                CAN1_RX0_IRQHandler
+                0x0000000008000cec                FPU_IRQHandler
+                0x0000000008000cec                OTG_HS_WKUP_IRQHandler
+                0x0000000008000cec                UsageFault_Handler
+                0x0000000008000cec                CAN2_SCE_IRQHandler
+                0x0000000008000cec                DMA2_Stream2_IRQHandler
+                0x0000000008000cec                SPI1_IRQHandler
+                0x0000000008000cec                TIM6_DAC_IRQHandler
+                0x0000000008000cec                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008000cec                DCMI_IRQHandler
+                0x0000000008000cec                CAN2_RX0_IRQHandler
+                0x0000000008000cec                DMA2_Stream3_IRQHandler
+                0x0000000008000cec                USART6_IRQHandler
+                0x0000000008000cec                USART3_IRQHandler
+                0x0000000008000cec                CAN1_RX1_IRQHandler
+                0x0000000008000cec                UART5_IRQHandler
+                0x0000000008000cec                DMA2_Stream0_IRQHandler
+                0x0000000008000cec                TIM4_IRQHandler
+                0x0000000008000cec                I2C1_EV_IRQHandler
+                0x0000000008000cec                DMA1_Stream6_IRQHandler
+                0x0000000008000cec                DMA1_Stream1_IRQHandler
+                0x0000000008000cec                UART4_IRQHandler
+                0x0000000008000cec                TIM3_IRQHandler
+                0x0000000008000cec                RCC_IRQHandler
+                0x0000000008000cec                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008000cec                Default_Handler
+                0x0000000008000cec                EXTI15_10_IRQHandler
+                0x0000000008000cec                ADC_IRQHandler
+                0x0000000008000cec                DMA1_Stream7_IRQHandler
+                0x0000000008000cec                TIM7_IRQHandler
+                0x0000000008000cec                CAN2_TX_IRQHandler
+                0x0000000008000cec                TIM5_IRQHandler
+                0x0000000008000cec                DMA2_Stream7_IRQHandler
+                0x0000000008000cec                I2C3_EV_IRQHandler
+                0x0000000008000cec                EXTI9_5_IRQHandler
+                0x0000000008000cec                RTC_WKUP_IRQHandler
+                0x0000000008000cec                ETH_WKUP_IRQHandler
+                0x0000000008000cec                SPI2_IRQHandler
+                0x0000000008000cec                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008000cec                MemManage_Handler
+                0x0000000008000cec                DMA1_Stream0_IRQHandler
+                0x0000000008000cec                CAN1_TX_IRQHandler
+                0x0000000008000cec                SVC_Handler
+                0x0000000008000cec                EXTI4_IRQHandler
+                0x0000000008000cec                FSMC_IRQHandler
+                0x0000000008000cec                ETH_IRQHandler
+                0x0000000008000cec                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008000cec                WWDG_IRQHandler
+                0x0000000008000cec                TIM2_IRQHandler
+                0x0000000008000cec                OTG_FS_WKUP_IRQHandler
+                0x0000000008000cec                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008000cec                OTG_HS_IRQHandler
+                0x0000000008000cec                EXTI1_IRQHandler
+                0x0000000008000cec                USART2_IRQHandler
+                0x0000000008000cec                I2C2_ER_IRQHandler
+                0x0000000008000cec                DMA2_Stream1_IRQHandler
+                0x0000000008000cec                CAN1_SCE_IRQHandler
+                0x0000000008000cec                FLASH_IRQHandler
+                0x0000000008000cec                DMA2_Stream4_IRQHandler
+                0x0000000008000cec                BusFault_Handler
+                0x0000000008000cec                USART1_IRQHandler
+                0x0000000008000cec                OTG_FS_IRQHandler
+                0x0000000008000cec                SPI3_IRQHandler
+                0x0000000008000cec                DMA1_Stream4_IRQHandler
+                0x0000000008000cec                I2C1_ER_IRQHandler
+                0x0000000008000cec                DMA2_Stream6_IRQHandler
+                0x0000000008000cec                DMA1_Stream3_IRQHandler
+ *fill*         0x0000000008000cee        0x2 
  .text.SystemInit
-                0x000000000800022c       0x1c CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
-                0x000000000800022c                SystemInit
+                0x0000000008000cf0       0x1c CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
+                0x0000000008000cf0                SystemInit
  .text.LL_GPIO_Init
-                0x0000000008000248      0x12c CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
-                0x0000000008000248                LL_GPIO_Init
+                0x0000000008000d0c      0x12c CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
+                0x0000000008000d0c                LL_GPIO_Init
  .text.LL_Init1msTick
-                0x0000000008000374       0x20 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
-                0x0000000008000374                LL_Init1msTick
+                0x0000000008000e38       0x20 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
+                0x0000000008000e38                LL_Init1msTick
  .text.LL_SetSystemCoreClock
-                0x0000000008000394        0xc CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
-                0x0000000008000394                LL_SetSystemCoreClock
- .text._ZL10turnPinsOnv
-                0x00000000080003a0       0x30 CMakeFiles/blink.dir/src/main.cpp.obj
- .text._ZL9showDigiti
-                0x00000000080003d0      0x198 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000008000e58        0xc CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
+                0x0000000008000e58                LL_SetSystemCoreClock
  .text._ZL5delaym
-                0x0000000008000568       0x18 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000008000e64       0x18 CMakeFiles/blink.dir/src/main.cpp.obj
  .text._ZL11setupClocksv
-                0x0000000008000580       0xd4 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000008000e7c       0xd4 CMakeFiles/blink.dir/src/main.cpp.obj
  .text._ZL9setupGpiov
-                0x0000000008000654       0x68 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000008000f50       0x44 CMakeFiles/blink.dir/src/main.cpp.obj
  .text.SysTick_Handler
-                0x00000000080006bc       0x10 CMakeFiles/blink.dir/src/main.cpp.obj
-                0x00000000080006bc                SysTick_Handler
- .text.main     0x00000000080006cc      0x100 CMakeFiles/blink.dir/src/main.cpp.obj
-                0x00000000080006cc                main
+                0x0000000008000f94       0x10 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000008000f94                SysTick_Handler
+ .text.main     0x0000000008000fa4      0x160 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000008000fa4                main
+ .text.pow      0x0000000008001104      0x184 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o)
+                0x0000000008001104                pow
+ .text.__ieee754_pow
+                0x0000000008001288      0xb44 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
+                0x0000000008001288                __ieee754_pow
+ .text.__ieee754_sqrt
+                0x0000000008001dcc      0x16c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_sqrt.o)
+                0x0000000008001dcc                __ieee754_sqrt
+ .text.fabs     0x0000000008001f38        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_fabs.o)
+                0x0000000008001f38                fabs
+ .text.finite   0x0000000008001f40        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_finite.o)
+                0x0000000008001f40                finite
+ .text.nan      0x0000000008001f4c        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_nan.o)
+                0x0000000008001f4c                nan
+ .text.rint     0x0000000008001f58      0x118 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+                0x0000000008001f58                rint
+ .text.scalbn   0x0000000008002070      0x104 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_scalbn.o)
+                0x0000000008002070                scalbn
+ .text.selfrel_offset31
+                0x0000000008002174       0x14 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.search_EIT_table
+                0x0000000008002188       0x5c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.__gnu_unwind_get_pr_addr
+                0x00000000080021e4       0x28 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.get_eit_entry
+                0x000000000800220c       0x9c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.restore_non_core_regs
+                0x00000000080022a8       0x58 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text._Unwind_decode_typeinfo_ptr.isra.0
+                0x0000000008002300        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text._Unwind_DebugHook
+                0x000000000800230c        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.unwind_phase2
+                0x0000000008002310       0x3c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.unwind_phase2_forced
+                0x000000000800234c       0xcc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.__gnu_Unwind_RaiseException
+                0x0000000008002418       0x60 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x0000000008002418                __gnu_Unwind_RaiseException
+ .text.__gnu_Unwind_ForcedUnwind
+                0x0000000008002478       0x14 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x0000000008002478                __gnu_Unwind_ForcedUnwind
+ .text.__gnu_Unwind_Resume
+                0x000000000800248c       0x44 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x000000000800248c                __gnu_Unwind_Resume
+ .text.__gnu_Unwind_Resume_or_Rethrow
+                0x00000000080024d0       0x14 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x00000000080024d0                __gnu_Unwind_Resume_or_Rethrow
+ .text._Unwind_VRS_Get
+                0x00000000080024e4       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x00000000080024e4                _Unwind_VRS_Get
+ .text._Unwind_GetGR
+                0x0000000008002514       0x18 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text._Unwind_VRS_Set
+                0x000000000800252c       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x000000000800252c                _Unwind_VRS_Set
+ .text._Unwind_SetGR
+                0x000000000800255c       0x18 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.__gnu_Unwind_Backtrace
+                0x0000000008002574       0x78 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x0000000008002574                __gnu_Unwind_Backtrace
+ .text.__gnu_unwind_pr_common
+                0x00000000080025ec      0x2a8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .text.__aeabi_unwind_cpp_pr0
+                0x0000000008002894        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x0000000008002894                __aeabi_unwind_cpp_pr0
+ .text.__aeabi_unwind_cpp_pr1
+                0x000000000800289c        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x000000000800289c                __aeabi_unwind_cpp_pr1
+ .text.__aeabi_unwind_cpp_pr2
+                0x00000000080028a4        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x00000000080028a4                __aeabi_unwind_cpp_pr2
+ .text._Unwind_VRS_Pop
+                0x00000000080028ac      0x278 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                0x00000000080028ac                _Unwind_VRS_Pop
+ .text.next_unwind_byte
+                0x0000000008002b24       0x38 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .text.__gnu_unwind_execute
+                0x0000000008002b5c      0x29c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+                0x0000000008002b5c                __gnu_unwind_execute
+ .text.abort    0x0000000008002df8        0xe e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-abort.o)
+                0x0000000008002df8                abort
+ *fill*         0x0000000008002e06        0x2 
+ .text.__errno  0x0000000008002e08        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-errno.o)
+                0x0000000008002e08                __errno
  .text.__libc_init_array
-                0x00000000080007cc       0x48 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
-                0x00000000080007cc                __libc_init_array
+                0x0000000008002e14       0x48 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
+                0x0000000008002e14                __libc_init_array
+ .text.memcpy   0x0000000008002e5c       0x1c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008002e5c                memcpy
+ .text._raise_r
+                0x0000000008002e78       0x50 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+                0x0000000008002e78                _raise_r
+ .text.raise    0x0000000008002ec8       0x10 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signal.o)
+                0x0000000008002ec8                raise
+ .text._kill_r  0x0000000008002ed8       0x24 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o)
+                0x0000000008002ed8                _kill_r
+ .text._getpid_r
+                0x0000000008002efc        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-signalr.o)
+                0x0000000008002efc                _getpid_r
+ .text._getpid  0x0000000008002f00       0x10 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+                0x0000000008002f00                _getpid
+ .text._kill    0x0000000008002f10       0x10 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+                0x0000000008002f10                _kill
+ .text._exit    0x0000000008002f20        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
+                0x0000000008002f20                _exit
  *(.glue_7)
- .glue_7        0x0000000008000814        0x0 linker stubs
+ .glue_7        0x0000000008002f24        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008000814        0x0 linker stubs
+ .glue_7t       0x0000000008002f24        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008000814        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ .eh_frame      0x0000000008002f24        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
  *(.init)
- .init          0x0000000008000814        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
-                0x0000000008000814                _init
- .init          0x0000000008000818        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
+ .init          0x0000000008002f24        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
+                0x0000000008002f24                _init
+ .init          0x0000000008002f28        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
  *(.fini)
- .fini          0x0000000008000820        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
-                0x0000000008000820                _fini
- .fini          0x0000000008000824        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
-                0x000000000800082c                . = ALIGN (0x4)
-                0x000000000800082c                _etext = .
+ .fini          0x0000000008002f30        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crti.o
+                0x0000000008002f30                _fini
+ .fini          0x0000000008002f34        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
+                0x0000000008002f3c                . = ALIGN (0x4)
+                0x0000000008002f3c                _etext = .
 
-.vfp11_veneer   0x000000000800082c        0x0
- .vfp11_veneer  0x000000000800082c        0x0 linker stubs
+.vfp11_veneer   0x0000000008002f3c        0x0
+ .vfp11_veneer  0x0000000008002f3c        0x0 linker stubs
 
-.v4_bx          0x000000000800082c        0x0
- .v4_bx         0x000000000800082c        0x0 linker stubs
+.v4_bx          0x0000000008002f3c        0x0
+ .v4_bx         0x0000000008002f3c        0x0 linker stubs
 
-.iplt           0x000000000800082c        0x0
- .iplt          0x000000000800082c        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+.iplt           0x0000000008002f3c        0x0
+ .iplt          0x0000000008002f3c        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.rodata         0x000000000800082c        0x0
-                0x000000000800082c                . = ALIGN (0x4)
+.rodata         0x0000000008002f40       0x18
+                0x0000000008002f40                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x000000000800082c                . = ALIGN (0x4)
+ .rodata.__ieee754_pow.str1.4
+                0x0000000008002f40        0x1 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
+ *fill*         0x0000000008002f41        0x7 
+ .rodata.TWO52  0x0000000008002f48       0x10 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+                0x0000000008002f58                . = ALIGN (0x4)
 
-.ARM.extab
+.ARM.extab      0x0000000008002f58        0xc
  *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text.__ieee754_pow
+                0x0000000008002f58        0xc e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
 
-.ARM            0x000000000800082c        0x8
-                0x000000000800082c                __exidx_start = .
+.ARM            0x0000000008002f64       0xa0
+                0x0000000008002f64                __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.startup.__arm_set_fast_math
-                0x000000000800082c        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
-                0x0000000008000834                __exidx_end = .
+                0x0000000008002f64        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+ .ARM.exidx.text.pow
+                0x0000000008002f6c        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o)
+ .ARM.exidx.text.__ieee754_pow
+                0x0000000008002f74        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
+ .ARM.exidx.text.__ieee754_sqrt
+                0x0000000008002f7c        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_sqrt.o)
+ .ARM.exidx.text.fabs
+                0x0000000008002f84        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_fabs.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.finite
+                0x0000000008002f84        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_finite.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.nan
+                0x0000000008002f84        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_nan.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.rint
+                0x0000000008002f84        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.scalbn
+                0x0000000008002f84        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_scalbn.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.selfrel_offset31
+                0x0000000008002f84        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.search_EIT_table
+                0x0000000008002f84        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.__gnu_unwind_get_pr_addr
+                0x0000000008002f84        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.get_eit_entry
+                0x0000000008002f84        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.restore_non_core_regs
+                0x0000000008002f8c        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text._Unwind_decode_typeinfo_ptr.isra.0
+                0x0000000008002f94        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text._Unwind_DebugHook
+                0x0000000008002f9c        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.unwind_phase2
+                0x0000000008002f9c        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.unwind_phase2_forced
+                0x0000000008002fa4        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.__gnu_Unwind_RaiseException
+                0x0000000008002fac        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.__gnu_Unwind_ForcedUnwind
+                0x0000000008002fb4        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.__gnu_Unwind_Resume
+                0x0000000008002fbc        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.__gnu_Unwind_Resume_or_Rethrow
+                0x0000000008002fc4        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text._Unwind_VRS_Get
+                0x0000000008002fcc        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Unwind_GetGR
+                0x0000000008002fcc        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Unwind_VRS_Set
+                0x0000000008002fcc        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Unwind_SetGR
+                0x0000000008002fcc        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.__gnu_Unwind_Backtrace
+                0x0000000008002fcc        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.__gnu_unwind_pr_common
+                0x0000000008002fd4        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.__aeabi_unwind_cpp_pr0
+                0x0000000008002fdc        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.__aeabi_unwind_cpp_pr1
+                0x0000000008002fe4        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.__aeabi_unwind_cpp_pr2
+                0x0000000008002fe4        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._Unwind_VRS_Pop
+                0x0000000008002fe4        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(unwind-arm.o)
+ .ARM.exidx.text.next_unwind_byte
+                0x0000000008002fec        0x8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+ .ARM.exidx.text.__gnu_unwind_execute
+                0x0000000008002ff4       0x10 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(pr-support.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._getpid
+                0x0000000008003004        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._kill
+                0x0000000008003004        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(kill.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._exit
+                0x0000000008003004        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(_exit.o)
+                                          0x8 (size before relaxing)
+                0x0000000008003004                __exidx_end = .
 
-.rel.dyn        0x0000000008000834        0x0
- .rel.iplt      0x0000000008000834        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+.rel.dyn        0x0000000008003004        0x0
+ .rel.iplt      0x0000000008003004        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.preinit_array  0x0000000008000834        0x0
-                0x0000000008000834                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008003004        0x0
+                0x0000000008003004                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008000834                PROVIDE (__preinit_array_end = .)
+                0x0000000008003004                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008000834        0x8
-                0x0000000008000834                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008003004        0x8
+                0x0000000008003004                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008000834        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
- .init_array    0x0000000008000838        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
-                0x000000000800083c                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008003004        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+ .init_array    0x0000000008003008        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+                0x000000000800300c                PROVIDE (__init_array_end = .)
 
-.fini_array     0x000000000800083c        0x4
+.fini_array     0x000000000800300c        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000800083c        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ .fini_array    0x000000000800300c        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008000840                _sidata = LOADADDR (.data)
+                0x0000000008003010                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0x4 load address 0x0000000008000840
+.data           0x0000000020000000       0xa4 load address 0x0000000008003010
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -444,14 +1115,32 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
  .data.SystemCoreClock
                 0x0000000020000000        0x4 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
                 0x0000000020000000                SystemCoreClock
-                0x0000000020000004                . = ALIGN (0x4)
-                0x0000000020000004                _edata = .
-                0x0000000008000844                _siccmram = LOADADDR (.ccmram)
+ .data.digits   0x0000000020000004       0x16 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000020000004                digits
+ *fill*         0x000000002000001a        0x2 
+ .data.digitsLocations
+                0x000000002000001c        0x8 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x000000002000001c                digitsLocations
+ .data.pinsLocations
+                0x0000000020000024       0x18 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x0000000020000024                pinsLocations
+ .data.__fdlib_version
+                0x000000002000003c        0x1 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_lib_ver.o)
+                0x000000002000003c                __fdlib_version
+ *fill*         0x000000002000003d        0x3 
+ .data._impure_ptr
+                0x0000000020000040        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
+                0x0000000020000040                _impure_ptr
+ .data.impure_data
+                0x0000000020000044       0x60 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
+                0x00000000200000a4                . = ALIGN (0x4)
+                0x00000000200000a4                _edata = .
+                0x00000000080030b4                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x0000000020000004        0x0 load address 0x0000000008000844
- .igot.plt      0x0000000020000004        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+.igot.plt       0x00000000200000a4        0x0 load address 0x00000000080030b4
+ .igot.plt      0x00000000200000a4        0x0 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.ccmram         0x0000000010000000        0x0 load address 0x0000000008000844
+.ccmram         0x0000000010000000        0x0 load address 0x00000000080030b4
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
@@ -460,32 +1149,34 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
                 0x0000000010000000                _eccmram = .
                 0x0000000010000000                . = ALIGN (0x4)
 
-.bss            0x0000000020000004       0x20
-                0x0000000020000004                _sbss = .
-                0x0000000020000004                __bss_start__ = _sbss
+.bss            0x00000000200000a4       0x24
+                0x00000000200000a4                _sbss = .
+                0x00000000200000a4                __bss_start__ = _sbss
  *(.bss)
  *(.bss*)
  .bss.completed.10277
-                0x0000000020000004        0x1 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
- *fill*         0x0000000020000005        0x3 
+                0x00000000200000a4        0x1 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ *fill*         0x00000000200000a5        0x3 
  .bss.object.10282
-                0x0000000020000008       0x18 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
+                0x00000000200000a8       0x18 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtbegin.o
  .bss._ZL9tickCount
-                0x0000000020000020        0x4 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x00000000200000c0        0x4 CMakeFiles/blink.dir/src/main.cpp.obj
  *(COMMON)
-                0x0000000020000024                . = ALIGN (0x4)
-                0x0000000020000024                _ebss = .
-                0x0000000020000024                __bss_end__ = _ebss
+ COMMON         0x00000000200000c4        0x4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-reent.o)
+                0x00000000200000c4                errno
+                0x00000000200000c8                . = ALIGN (0x4)
+                0x00000000200000c8                _ebss = .
+                0x00000000200000c8                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000024      0x200
-                0x0000000020000024                . = ALIGN (0x4)
-                [!provide]                        PROVIDE (end = .)
+                0x00000000200000c8      0x200
+                0x00000000200000c8                . = ALIGN (0x4)
+                0x00000000200000c8                PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x0000000020000024                . = (. + _Min_Heap_Size)
-                0x0000000020000224                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000024      0x200 
-                0x0000000020000224                . = ALIGN (0x4)
+                0x00000000200000c8                . = (. + _Min_Heap_Size)
+                0x00000000200002c8                . = (. + _Min_Stack_Size)
+ *fill*         0x00000000200000c8      0x200 
+                0x00000000200002c8                . = ALIGN (0x4)
 
 /DISCARD/
  libc.a(*)
@@ -512,45 +1203,91 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
  .ARM.attributes
                 0x000000000000012d       0x2e CMakeFiles/blink.dir/src/main.cpp.obj
  .ARM.attributes
-                0x000000000000015b       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
+                0x000000000000015b       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o)
  .ARM.attributes
-                0x000000000000018d       0x1e e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
+                0x000000000000018d       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
+ .ARM.attributes
+                0x00000000000001bf       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_sqrt.o)
+ .ARM.attributes
+                0x00000000000001f1       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_fabs.o)
+ .ARM.attributes
+                0x0000000000000223       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_finite.o)
+ .ARM.attributes
+                0x0000000000000255       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x0000000000000285       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_nan.o)
+ .ARM.attributes
+                0x00000000000002b7       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+ .ARM.attributes
+                0x00000000000002e9       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_scalbn.o)
+ .ARM.attributes
+                0x000000000000031b       0x1e e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000000000000339       0x1e e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x0000000000000357       0x1e e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000000000000375       0x1e e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x0000000000000393       0x1e e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000000000003b1       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000000003e3       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000413       0x32 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000445       0x1e e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtn.o
 OUTPUT(blink elf32-littlearm)
 LOAD linker stubs
 LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libc.a
 LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a
 LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a
 
-.debug_frame    0x0000000000000000      0x250
+.debug_frame    0x0000000000000000      0x658
  .debug_frame   0x0000000000000000       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp/crtfastmath.o
  .debug_frame   0x0000000000000020       0x30 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_frame   0x0000000000000050       0x54 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_frame   0x00000000000000a4       0xd4 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_frame   0x0000000000000178       0xac CMakeFiles/blink.dir/src/main.cpp.obj
- .debug_frame   0x0000000000000224       0x2c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000178       0x90 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_frame   0x0000000000000208       0x34 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-w_pow.o)
+ .debug_frame   0x000000000000023c       0xc8 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_pow.o)
+ .debug_frame   0x0000000000000304       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-e_sqrt.o)
+ .debug_frame   0x0000000000000334       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_fabs.o)
+ .debug_frame   0x0000000000000354       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_finite.o)
+ .debug_frame   0x0000000000000374       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_nan.o)
+ .debug_frame   0x0000000000000394       0x44 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_rint.o)
+ .debug_frame   0x00000000000003d8       0x30 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libm.a(lib_a-s_scalbn.o)
+ .debug_frame   0x0000000000000408       0xac e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000000000004b4       0x50 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000000504       0xc4 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00000000000005c8       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x00000000000005e8       0x24 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/softfp\libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x000000000000060c       0x20 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x000000000000062c       0x2c e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libg_nano.a(lib_a-init.o)
 
-.debug_line     0x0000000000000000     0x1990
+.debug_line     0x0000000000000000     0x196a
  .debug_line    0x0000000000000000       0x9b CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_line    0x000000000000009b      0x24d CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_line    0x00000000000002e8      0x6f7 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_line    0x00000000000009df      0x77d CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_line    0x000000000000115c      0x834 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_line    0x000000000000115c      0x80e CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_info     0x0000000000000000     0x2f29
+.debug_info     0x0000000000000000     0x4884
  .debug_info    0x0000000000000000       0x22 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_info    0x0000000000000022      0x55b CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_info    0x000000000000057d      0xd18 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_info    0x0000000000001295      0xc9c CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_info    0x0000000000001f31      0xff8 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_info    0x0000000000001f31     0x2953 CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_abbrev   0x0000000000000000      0x92b
+.debug_abbrev   0x0000000000000000      0xadb
  .debug_abbrev  0x0000000000000000       0x12 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_abbrev  0x0000000000000012      0x12c CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_abbrev  0x000000000000013e      0x293 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_abbrev  0x00000000000003d1      0x27a CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_abbrev  0x000000000000064b      0x2e0 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_abbrev  0x000000000000064b      0x490 CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_aranges  0x0000000000000000      0x130
+.debug_aranges  0x0000000000000000      0x120
  .debug_aranges
                 0x0000000000000000       0x28 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_aranges
@@ -560,31 +1297,31 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
  .debug_aranges
                 0x0000000000000080       0x60 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
  .debug_aranges
-                0x00000000000000e0       0x50 CMakeFiles/blink.dir/src/main.cpp.obj
+                0x00000000000000e0       0x40 CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_str      0x0000000000000000     0x1171
+.debug_str      0x0000000000000000     0x18a3
  .debug_str     0x0000000000000000       0x7b CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_str     0x000000000000007b      0x375 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
                                         0x412 (size before relaxing)
- .debug_str     0x00000000000003f0      0x1ad CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
+ .debug_str     0x00000000000003f0      0x1a0 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
                                         0x53c (size before relaxing)
- .debug_str     0x000000000000059d      0x3df CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
+ .debug_str     0x0000000000000590      0x3df CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
                                         0x792 (size before relaxing)
- .debug_str     0x000000000000097c      0x7f5 CMakeFiles/blink.dir/src/main.cpp.obj
-                                        0xc95 (size before relaxing)
+ .debug_str     0x000000000000096f      0xf34 CMakeFiles/blink.dir/src/main.cpp.obj
+                                       0x1483 (size before relaxing)
 
-.debug_ranges   0x0000000000000000      0x1c0
+.debug_ranges   0x0000000000000000      0x1b0
  .debug_ranges  0x0000000000000000       0x20 CMakeFiles/blink.dir/libs/cmsis/startup_stm32f407xx.s.obj
  .debug_ranges  0x0000000000000020       0x18 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_ranges  0x0000000000000038       0xf8 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_ranges  0x0000000000000130       0x50 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_ranges  0x0000000000000180       0x40 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_ranges  0x0000000000000180       0x30 CMakeFiles/blink.dir/src/main.cpp.obj
 
-.debug_loc      0x0000000000000000     0x100f
+.debug_loc      0x0000000000000000     0x1015
  .debug_loc     0x0000000000000000      0x16c CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
  .debug_loc     0x000000000000016c      0x702 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .debug_loc     0x000000000000086e      0x61f CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
- .debug_loc     0x0000000000000e8d      0x182 CMakeFiles/blink.dir/src/main.cpp.obj
+ .debug_loc     0x0000000000000e8d      0x188 CMakeFiles/blink.dir/src/main.cpp.obj
 
 .comment        0x0000000000000000       0x43
  .comment       0x0000000000000000       0x43 CMakeFiles/blink.dir/libs/cmsis/system_stm32f4xx.c.obj
@@ -592,3 +1329,6 @@ LOAD e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/thu
  .comment       0x0000000000000043       0x44 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_gpio.c.obj
  .comment       0x0000000000000043       0x44 CMakeFiles/blink.dir/libs/hal/src/stm32f4xx_ll_utils.c.obj
  .comment       0x0000000000000043       0x44 CMakeFiles/blink.dir/src/main.cpp.obj
+
+.stabstr        0x0000000000000000       0x76
+ .stabstr       0x0000000000000000       0x76 e:/xpack-arm-none-eabi-gcc-9.3.1-1.3/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp\libnosys.a(getpid.o)
