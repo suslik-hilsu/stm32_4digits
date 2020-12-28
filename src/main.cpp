@@ -49,7 +49,7 @@ static void setupClocks() {
 static void setupGpio() {
     LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOC);
     LL_GPIO_InitTypeDef gpio = { 0 };
-    gpio.Pin = 65536;
+    gpio.Pin = (uint16_t)65536;
     gpio.Mode = LL_GPIO_MODE_OUTPUT;
     gpio.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
     gpio.Pull = LL_GPIO_PULL_NO;
@@ -71,12 +71,12 @@ int main() {
     int ticks;
     int delay_time = 7;
 
-    GPIOC->BSRR = 65536; //sets pins to default
+    GPIOC->BSRR = (uint16_t)65536; //sets pins to default
     for(i = 1; i < 4; i++) //sets pins to default
         GPIOC->BSRR = 1<<(pinsLocations[digitsLocations[i]]+16);
 
 
-    while (tickCount < 200000000) {
+    while (1) {
         ticks = tickCount;
 
         for(i = 0; i < 4; i++)
