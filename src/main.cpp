@@ -71,7 +71,10 @@ int main() {
     uint16_t digitInBits = 0;
     int ticks;
     int delay_time = 7;
-
+    for(i = 0; i < 4; i++)
+    {
+        GPIOC->BSRR=(int)pow(2, digitsLocations[i])<<16;
+    }
     while (tickCount < 20000) {
         ticks = tickCount;
 
