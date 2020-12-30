@@ -12,9 +12,9 @@
 #pragma ide diagnostic ignored "EndlessLoop"
 static volatile uint32_t tickCount = 0;
 
-uint16_t diodesLocations[8];
-uint16_t digits[11] {1615, 36, 1107, 1114, 600, 1562, 1563, 1096, 1627, 1626, 4};
-uint16_t digitsLocations[4];
+uint16_t diodesLocations[8] {14, 1, 3, 0, 13, 2, 15, 11};
+uint8_t digits[11] {0b01110111, 0b00100100, 0b01011101, 0b01101101, 0b00101110, 0b01101011, 0b01111011, 0b00100101, 0b01111111, 0b01101111, 0b10000000};
+uint16_t digitsLocations[4] {6, 7, 9, 8};
 extern "C" void SysTick_Handler() {
     tickCount++;
 }
@@ -49,7 +49,7 @@ static void setupClocks() {
 static void setupGpio() {
     LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOC);
     LL_GPIO_InitTypeDef gpio = { 0 };
-    gpio.Pin = (uint16_t)65536;
+    gpio.Pin = (uint16_t)65535;
     gpio.Mode = LL_GPIO_MODE_OUTPUT;
     gpio.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
     gpio.Pull = LL_GPIO_PULL_NO;
@@ -70,9 +70,10 @@ int main() {
     int i, j;
     uint16_t digitInBits = 0;
     int ticks;
-    int delay_time = 7;
+    int delay_time = 50;
+    uint8_t current_digit;
 
-    GPIOC->BSRR=65536;
+    GPIOC->BSRR=65535;
     for(i = 0; i < 4; i++)
     {
         GPIOC->BSRR=(int)pow(2, digitsLocations[i])<<16;
@@ -80,16 +81,17 @@ int main() {
 
     while (tickCount <  60000) {
         ticks = tickCount;
-
         for(i = 0; i < 4; i++)
         {
+            current_digit = digits[ticks%10];
+
             for(j = 0; j < 8; j++)
             {
-                if((digits[ticks/10]|1)==1)
-                {
-                    digitInBits+=pow(2, diodesLocations[j]);
-                }
+                if((current_digit&1)==1)
+                    digitInBits+=(uint16_t)pow(2, diodesLocations[j]);
+                current_digit>>1;
             }
+
             GPIOC->BSRR = digitInBits << 16;
             GPIOC->BSRR = pow(2, digitsLocations[i]);
 
@@ -98,7 +100,7 @@ int main() {
             GPIOC->BSRR = digitInBits;
             GPIOC->BSRR = ((int)pow(2, digitsLocations[i])) << 16;
             digitInBits << 16;
-            ticks/=10;
+            ticks=ticks/10;
         }
     }
 }
