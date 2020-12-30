@@ -70,7 +70,7 @@ int main() {
     int i, j;
     uint16_t digitInBits = 0;
     int ticks;
-    int delay_time = 10;
+    int delay_time = 5;
     uint8_t current_digit;
 
     GPIOC->BSRR=65535;
