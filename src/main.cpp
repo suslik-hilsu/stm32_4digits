@@ -12,7 +12,7 @@
 #pragma ide diagnostic ignored "EndlessLoop"
 static volatile uint32_t tickCount = 0;
 
-uint16_t diodesLocations[8] {14, 1, 3, 0, 13, 2, 15, 11};
+uint16_t diodesLocations[8] {14, 1, 3, 2, 13, 0, 15, 11};
 uint8_t digits[11] {0b01110111, 0b00100100, 0b01011101, 0b01101101, 0b00101110, 0b01101011, 0b01111011, 0b00100101, 0b01111111, 0b01101111, 0b10000000};
 uint16_t digitsLocations[4] {6, 7, 9, 8};
 extern "C" void SysTick_Handler() {
@@ -70,7 +70,7 @@ int main() {
     int i, j;
     uint16_t digitInBits = 0;
     int ticks;
-    int delay_time = 50;
+    int delay_time = 10;
     uint8_t current_digit;
 
     GPIOC->BSRR=65535;
@@ -79,7 +79,7 @@ int main() {
         GPIOC->BSRR=(int)pow(2, digitsLocations[i])<<16;
     }
 
-    while (tickCount <  60000) {
+    while (tickCount <  12000) {
         ticks = tickCount;
         for(i = 0; i < 4; i++)
         {
@@ -89,7 +89,7 @@ int main() {
             {
                 if((current_digit&1)==1)
                     digitInBits+=(uint16_t)pow(2, diodesLocations[j]);
-                current_digit>>1;
+                current_digit>>=1;
             }
 
             GPIOC->BSRR = digitInBits << 16;
@@ -99,7 +99,7 @@ int main() {
 
             GPIOC->BSRR = digitInBits;
             GPIOC->BSRR = ((int)pow(2, digitsLocations[i])) << 16;
-            digitInBits << 16;
+            digitInBits<<=16;
             ticks=ticks/10;
         }
     }
