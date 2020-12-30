@@ -12,9 +12,9 @@
 #pragma ide diagnostic ignored "EndlessLoop"
 static volatile uint32_t tickCount = 0;
 
-uint16_t pinsLocations[12] {4, 6, 7, 5, 3, 11, 2, 8, 9, 1, 0, 10};
+uint16_t diodesLocations[12];
 uint16_t digits[11] {1615, 36, 1107, 1114, 600, 1562, 1563, 1096, 1627, 1626, 4};
-uint16_t digitsLocations[4] {12, 9, 8, 6};
+uint16_t digitsLocations[4];
 extern "C" void SysTick_Handler() {
     tickCount++;
 }
@@ -67,27 +67,32 @@ int main() {
     setupClocks();
     setupGpio();
 
-    int i;
+    int i, j;
+    uint16_t digitInBits = 0;
     int ticks;
     int delay_time = 7;
 
-    GPIOC->BSRR = (uint16_t)65536; //sets pins to default
-    for(i = 1; i < 4; i++) //sets pins to default
-        GPIOC->BSRR = 1<<(pinsLocations[digitsLocations[i]]+16);
-
-
-    while (1) {
+    while (tickCount < 20000) {
         ticks = tickCount;
 
         for(i = 0; i < 4; i++)
         {
-            GPIOC->BSRR = 1<<pinsLocations[digitsLocations[i]];
-            GPIOC->BSRR = digits[(uint16_t)(ticks/pow(10, 4-i))%(uint16_t)(pow(10, 3-i))]<<16;
-
-            GPIOC->BSRR = 1<<(pinsLocations[digitsLocations[i]]+16);
-            GPIOC->BSRR = digits[(uint16_t)(ticks/pow(10, 4-i))%(uint16_t)(pow(10, 3-i))];
+            for(j = 0; j < 8; j++)
+            {
+                if((digits[ticks/10]|1)==1)
+                {
+                    digitInBits+=pow(2, diodesLocations[j]);
+                }
+            }
+            GPIOC->BSRR = digitInBits << 16;
+            GPIOC->BSRR = pow(2, digitsLocations[i]);
 
             delay(delay_time);
+
+            GPIOC->BSRR = digitInBits;
+            GPIOC->BSRR = ((int)pow(2, digitsLocations[i])) << 16;
+            digitInBits << 16;
+            ticks/=10;
         }
     }
 }
