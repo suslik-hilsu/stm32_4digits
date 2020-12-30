@@ -12,7 +12,7 @@
 #pragma ide diagnostic ignored "EndlessLoop"
 static volatile uint32_t tickCount = 0;
 
-uint16_t diodesLocations[12];
+uint16_t diodesLocations[8];
 uint16_t digits[11] {1615, 36, 1107, 1114, 600, 1562, 1563, 1096, 1627, 1626, 4};
 uint16_t digitsLocations[4];
 extern "C" void SysTick_Handler() {
