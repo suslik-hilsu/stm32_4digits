@@ -76,7 +76,7 @@ int main() {
     GPIOC->BSRR=65535;
     for(i = 0; i < 4; i++)
     {
-        GPIOC->BSRR=(int)pow(2, digitsLocations[i])<<16;
+        GPIOC->BSRR=(uint32_t)1 << (16+digitsLocations[i]);
     }
 
     while (tickCount <  12000) {
@@ -88,17 +88,17 @@ int main() {
             for(j = 0; j < 8; j++)
             {
                 if((current_digit&1)==1)
-                    digitInBits+=(uint16_t)pow(2, diodesLocations[j]);
-                current_digit>>=1;
+                    digitInBits+=(uint16_t)1 << digitsLocations[i];
+                current_digit >>= 1;
             }
 
             GPIOC->BSRR = digitInBits << 16;
-            GPIOC->BSRR = pow(2, digitsLocations[i]);
+            GPIOC->BSRR = (uint32_t)1 << digitsLocations[i];
 
             delay(delay_time);
 
             GPIOC->BSRR = digitInBits;
-            GPIOC->BSRR = ((int)pow(2, digitsLocations[i])) << 16;
+            GPIOC->BSRR = (uint32_t)1 << (16 + digitsLocations[i]);
             digitInBits<<=16;
             ticks=ticks/10;
         }
